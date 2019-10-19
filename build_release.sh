@@ -1,6 +1,7 @@
 #!/bin/bash
 echo $PATH
-git pull
+git fetch
+git pull origin master
 git checkout master
 cd Rocket
 bundle install
