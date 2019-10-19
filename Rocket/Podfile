@@ -1,0 +1,22 @@
+# platform :ios, '9.0'
+
+target 'RocketDemo' do
+
+#    pod 'AFNetworking', '~> 3.0'
+#    pod "SDWebImage"
+    pod 'SVProgressHUD'
+#    pod 'ReactiveObjC'
+    pod 'Masonry'
+    pod 'WXLoginBusiness', :path => '../Lib/WXLoginBusiness'
+    pod 'WXRocket', :path => '../Lib/WXRocket'
+    pod 'WXMineBusiness', :path => '../Lib/WXMineBusiness'
+    pod 'fishhook'
+#    pod 'CocoaLumberjack'
+    pod 'MTGLDebug'
+
+    pod 'MTAppenderFile', '~> 0.4.0'
+end
+
+target 'RocketDemoTests' do
+    pod 'KIF', :configurations => ['Debug']
+end

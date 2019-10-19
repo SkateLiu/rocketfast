@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WXLoginBusiness_Example' do
+  pod 'WXLoginBusiness', :path => '../'
+
+  target 'WXLoginBusiness_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

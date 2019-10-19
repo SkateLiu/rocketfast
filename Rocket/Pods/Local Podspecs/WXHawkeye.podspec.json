@@ -1,0 +1,200 @@
+{
+  "name": "WXHawkeye",
+  "version": "0.12.1",
+  "summary": "Profiling/Debugging assist tools for iOS.",
+  "description": "MTHawkeye is profiling/debugging assist tools for iOS. It's designed to help iOS developers improve development productivity and assist in optimizing the App performance.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "Copyright",
+    "text": "      © 2008-present, Meitu, Inc. All rights reserved.\n"
+  },
+  "authors": {
+    "XX": "XX"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/teemo/WXHawkeye.git",
+    "tag": "0.12.1"
+  },
+  "default_subspecs": "Default",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "DefaultPlugins",
+      "dependencies": {
+        "MTHawkeye/DefaultPluginsWithoutLog": [
+
+        ],
+        "CocoaLumberjack": [
+
+        ]
+      }
+    },
+    {
+      "name": "Default",
+      "public_header_files": "MTHawkeye/DefaultPlugins/**/*.{h}",
+      "source_files": "MTHawkeye/DefaultPlugins/**/*.{h,m,mm}",
+      "dependencies": {
+        "MTHawkeye/Core": [
+
+        ],
+        "MTHawkeye/UISkeleton": [
+
+        ],
+        "MTHawkeye/EnergyPlugins": [
+
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "public_header_files": "MTHawkeye/Core/**/*.{h}",
+      "source_files": "MTHawkeye/Core/**/*.{h,m}",
+      "dependencies": {
+        "MTHawkeye/Utils": [
+
+        ]
+      }
+    },
+    {
+      "name": "UISkeleton",
+      "public_header_files": "MTHawkeye/UISkeleton/**/*.{h}",
+      "source_files": "MTHawkeye/UISkeleton/**/*.{h,m}",
+      "dependencies": {
+        "MTHawkeye/Core": [
+
+        ]
+      },
+      "frameworks": [
+        "CoreGraphics",
+        "QuartzCore",
+        "UIKit",
+        "WebKit"
+      ],
+      "libraries": "z"
+    },
+    {
+      "name": "Utils",
+      "public_header_files": "MTHawkeye/Utils/*.{h}",
+      "source_files": "MTHawkeye/Utils/**/*.{h,m,mm}",
+      "dependencies": {
+        "MTAppenderFile": [
+
+        ]
+      },
+      "frameworks": [
+        "Foundation",
+        "SystemConfiguration"
+      ],
+      "exclude_files": "MTHawkeye/Utils/*.{cpp,hpp}",
+      "subspecs": [
+        {
+          "name": "cpp",
+          "public_header_files": "MTHawkeye/Utils/MTHawkeyeEmptyHeaderForCPP.hpp",
+          "source_files": "MTHawkeye/Utils/*.{cpp,hpp}",
+          "libraries": "stdc++"
+        }
+      ]
+    },
+    {
+      "name": "StackBacktrace",
+      "public_header_files": [
+        "MTHawkeye/StackBacktrace/MTHStackFrameSymbolicsRemote.h",
+        "MTHawkeye/StackBacktrace/mth_stack_backtrace.h"
+      ],
+      "source_files": "MTHawkeye/StackBacktrace/**/*.{h,m,mm,cpp}",
+      "dependencies": {
+        "MTHawkeye/Utils": [
+
+        ]
+      },
+      "frameworks": "Foundation"
+    },
+    {
+      "name": "EnergyPlugins",
+      "subspecs": [
+        {
+          "name": "CPUTrace",
+          "subspecs": [
+            {
+              "name": "Core",
+              "public_header_files": "MTHawkeye/EnergyPlugins/CPUTrace/Core/MTHCPUTracePublicHeader.{h}",
+              "source_files": "MTHawkeye/EnergyPlugins/CPUTrace/Core/*.{h,m,mm}",
+              "dependencies": {
+                "MTHawkeye/Core": [
+
+                ],
+                "MTHawkeye/StackBacktrace": [
+
+                ]
+              },
+              "libraries": "stdc++"
+            },
+            {
+              "name": "HawkeyeCore",
+              "public_header_files": "MTHawkeye/EnergyPlugins/CPUTrace/HawkeyeCore/*.{h}",
+              "source_files": "MTHawkeye/EnergyPlugins/CPUTrace/HawkeyeCore/*.{h,m,mm}",
+              "dependencies": {
+                "MTHawkeye/Core": [
+
+                ],
+                "MTHawkeye/EnergyPlugins/CPUTrace/Core": [
+
+                ]
+              }
+            },
+            {
+              "name": "HawkeyeUI",
+              "public_header_files": "MTHawkeye/EnergyPlugins/CPUTrace/HawkeyeUI/*.{h}",
+              "source_files": "MTHawkeye/EnergyPlugins/CPUTrace/HawkeyeUI/*.{h,m,mm}",
+              "dependencies": {
+                "MTHawkeye/Core": [
+
+                ],
+                "MTHawkeye/UISkeleton": [
+
+                ],
+                "MTHawkeye/EnergyPlugins/CPUTrace/HawkeyeCore": [
+
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BackgroundTaskTrace",
+      "subspecs": [
+        {
+          "name": "Core",
+          "public_header_files": "MTHawkeye/EnergyPlugins/BackgroundTaskTrace/Core/*.{h}",
+          "source_files": "MTHawkeye/EnergyPlugins/BackgroundTaskTrace/Core/*.{h,m}",
+          "dependencies": {
+            "MTHawkeye/Utils": [
+
+            ]
+          }
+        },
+        {
+          "name": "HawkeyeCore",
+          "public_header_files": "MTHawkeye/EnergyPlugins/BackgroundTaskTrace/HawkeyeCore/*.{h}",
+          "source_files": "MTHawkeye/EnergyPlugins/BackgroundTaskTrace/HawkeyeCore/*.{h,m}",
+          "dependencies": {
+            "MTHawkeye/Core": [
+
+            ],
+            "MTHawkeye/StackBacktrace": [
+
+            ],
+            "MTHawkeye/BackgroundTaskTrace/Core": [
+
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

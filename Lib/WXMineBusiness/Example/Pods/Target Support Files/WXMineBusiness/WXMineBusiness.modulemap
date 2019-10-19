@@ -1,0 +1,6 @@
+framework module WXMineBusiness {
+  umbrella header "WXMineBusiness-umbrella.h"
+
+  export *
+  module * { export * }
+}

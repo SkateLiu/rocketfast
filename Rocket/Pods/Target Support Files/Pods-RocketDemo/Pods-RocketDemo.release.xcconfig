@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KIF" "${PODS_ROOT}/Headers/Public/MTAppenderFile" "${PODS_ROOT}/Headers/Public/MTGLDebug" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/WXLoginBusiness" "${PODS_ROOT}/Headers/Public/WXMineBusiness" "${PODS_ROOT}/Headers/Public/WXRocket" "${PODS_ROOT}/Headers/Public/fishhook"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MTAppenderFile" "${PODS_CONFIGURATION_BUILD_DIR}/MTGLDebug" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/WXLoginBusiness" "${PODS_CONFIGURATION_BUILD_DIR}/WXMineBusiness" "${PODS_CONFIGURATION_BUILD_DIR}/WXRocket" "${PODS_CONFIGURATION_BUILD_DIR}/fishhook"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MTAppenderFile" -l"MTGLDebug" -l"Masonry" -l"SVProgressHUD" -l"WXLoginBusiness" -l"WXMineBusiness" -l"WXRocket" -l"c++" -l"fishhook" -l"stdc++" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

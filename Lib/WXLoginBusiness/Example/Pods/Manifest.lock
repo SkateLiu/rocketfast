@@ -1,0 +1,16 @@
+PODS:
+  - WXLoginBusiness (0.1.0)
+
+DEPENDENCIES:
+  - WXLoginBusiness (from `../`)
+
+EXTERNAL SOURCES:
+  WXLoginBusiness:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXLoginBusiness: 849188aa56b748cb915e3c1f9e71e25534e89f86
+
+PODFILE CHECKSUM: 5c0ccbfaf7d9214fcf6aceb64b2abc5ea9d9b0ff
+
+COCOAPODS: 1.7.5

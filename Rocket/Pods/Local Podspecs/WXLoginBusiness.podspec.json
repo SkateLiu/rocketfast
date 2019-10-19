@@ -1,0 +1,32 @@
+{
+  "name": "WXLoginBusiness",
+  "version": "0.1.0",
+  "summary": "A short description of WXLoginBusiness.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Teemo2018/WXLoginBusiness",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Teemo2018": "chenjianneng@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/Teemo2018/WXLoginBusiness.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WXLoginBusiness/Classes/**/*",
+  "resources": "WXLoginBusiness/Assets/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
+}

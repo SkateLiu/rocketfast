@@ -1,0 +1,16 @@
+PODS:
+  - WXMineBusiness (0.1.0)
+
+DEPENDENCIES:
+  - WXMineBusiness (from `../`)
+
+EXTERNAL SOURCES:
+  WXMineBusiness:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXMineBusiness: b3d829143c843b86a78932bdbfd5639f718b7e5d
+
+PODFILE CHECKSUM: 2519174457bacbd2d3cd24097d1ae36bd01747d3
+
+COCOAPODS: 1.7.5

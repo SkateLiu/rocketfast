@@ -1,0 +1,80 @@
+PODS:
+  - fishhook (0.2)
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - Masonry (1.1.0)
+  - MTAppenderFile (0.4.3)
+  - MTGLDebug (3.1.2):
+    - fishhook (~> 0.2)
+    - MTGLDebug/ARC (= 3.1.2)
+  - MTGLDebug/ARC (3.1.2):
+    - fishhook (~> 0.2)
+    - MTGLDebug/MRC
+  - MTGLDebug/MRC (3.1.2):
+    - fishhook (~> 0.2)
+  - SVProgressHUD (2.1.2)
+  - WXLoginBusiness (0.1.0):
+    - Masonry
+    - SVProgressHUD
+  - WXMineBusiness (0.1.0)
+  - WXRocket (0.1.1):
+    - WXRocket/DefaultAll (= 0.1.1)
+  - WXRocket/Core (0.1.1):
+    - WXRocket/Utils
+  - WXRocket/DefaultAll (0.1.1):
+    - WXRocket/Core
+    - WXRocket/EnergyPlugins/CPUTrace
+  - WXRocket/EnergyPlugins/CPUTrace (0.1.1):
+    - WXRocket/Core
+    - WXRocket/StackBacktrace
+  - WXRocket/StackBacktrace (0.1.1):
+    - WXRocket/Utils
+  - WXRocket/Utils (0.1.1):
+    - MTAppenderFile
+    - WXRocket/Utils/cpp (= 0.1.1)
+  - WXRocket/Utils/cpp (0.1.1):
+    - MTAppenderFile
+
+DEPENDENCIES:
+  - fishhook
+  - KIF
+  - Masonry
+  - MTAppenderFile (~> 0.4.0)
+  - MTGLDebug
+  - SVProgressHUD
+  - WXLoginBusiness (from `../Lib/WXLoginBusiness`)
+  - WXMineBusiness (from `../Lib/WXMineBusiness`)
+  - WXRocket (from `../Lib/WXRocket`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - fishhook
+    - KIF
+    - Masonry
+    - MTAppenderFile
+    - MTGLDebug
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  WXLoginBusiness:
+    :path: "../Lib/WXLoginBusiness"
+  WXMineBusiness:
+    :path: "../Lib/WXMineBusiness"
+  WXRocket:
+    :path: "../Lib/WXRocket"
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MTAppenderFile: c7db8f33a8140ee2275a6200305fd11e609fae33
+  MTGLDebug: 4883ba4da36f45a88e2c2d805d2b5a5b54ba5ad1
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WXLoginBusiness: 025f03861f941050b93f27dccffc3726f4465f01
+  WXMineBusiness: b3bb1706b109a8f8c96b83919ee8789c96cb5595
+  WXRocket: a91c36e4dea78c55c430d467aa6882136d3bb4ea
+
+PODFILE CHECKSUM: dbf028e00796f6e2708b75624b0b7b049d1b1fa0
+
+COCOAPODS: 1.7.5

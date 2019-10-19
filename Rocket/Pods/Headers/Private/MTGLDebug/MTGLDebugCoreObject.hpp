@@ -1,0 +1,1 @@
+../../../MTGLDebug/MTGLDebug/Core/MTGLDebugCoreObject.hpp

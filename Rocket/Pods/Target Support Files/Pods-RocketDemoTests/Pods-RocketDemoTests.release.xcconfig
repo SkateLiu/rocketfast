@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KIF" "${PODS_ROOT}/Headers/Public/MTAppenderFile" "${PODS_ROOT}/Headers/Public/MTGLDebug" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/WXLoginBusiness" "${PODS_ROOT}/Headers/Public/WXMineBusiness" "${PODS_ROOT}/Headers/Public/WXRocket" "${PODS_ROOT}/Headers/Public/fishhook"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

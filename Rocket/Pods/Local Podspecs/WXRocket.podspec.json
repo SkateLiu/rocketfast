@@ -1,0 +1,101 @@
+{
+  "name": "WXRocket",
+  "version": "0.1.1",
+  "summary": "Profiling/Debugging assist tools for iOS.",
+  "description": "WXRocket is profiling/debugging assist tools for iOS. It's designed to help iOS developers improve development productivity and assist in optimizing the App performance.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "Copyright",
+    "text": "      © 2008-present, Meitu, Inc. All rights reserved.\n"
+  },
+  "authors": {
+    "XX": "XX"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/teemo/WXRocket.git",
+    "tag": "0.1.1"
+  },
+  "default_subspecs": "DefaultAll",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "DefaultAll",
+      "source_files": "WXRocket/DefaultPlugins/**/*.{h,m,mm}",
+      "dependencies": {
+        "WXRocket/Core": [
+
+        ],
+        "WXRocket/EnergyPlugins/CPUTrace": [
+
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "public_header_files": "WXRocket/Core/**/*.{h}",
+      "source_files": "WXRocket/Core/**/*.{h,m}",
+      "dependencies": {
+        "WXRocket/Utils": [
+
+        ]
+      }
+    },
+    {
+      "name": "Utils",
+      "public_header_files": "WXRocket/Utils/*.{h}",
+      "source_files": "WXRocket/Utils/**/*.{h,m,mm}",
+      "dependencies": {
+        "MTAppenderFile": [
+
+        ]
+      },
+      "frameworks": [
+        "Foundation",
+        "SystemConfiguration"
+      ],
+      "exclude_files": "WXRocket/Utils/*.{cpp,hpp}",
+      "subspecs": [
+        {
+          "name": "cpp",
+          "source_files": "WXRocket/Utils/*.{cpp,hpp}",
+          "libraries": "stdc++"
+        }
+      ]
+    },
+    {
+      "name": "StackBacktrace",
+      "public_header_files": [
+        "WXRocket/StackBacktrace/WXRocketStackFrameSymbolicsRemote.h",
+        "WXRocket/StackBacktrace/wxr_stack_backtrace.h"
+      ],
+      "source_files": "WXRocket/StackBacktrace/**/*.{h,m,mm,cpp}",
+      "dependencies": {
+        "WXRocket/Utils": [
+
+        ]
+      },
+      "frameworks": "Foundation"
+    },
+    {
+      "name": "EnergyPlugins",
+      "subspecs": [
+        {
+          "name": "CPUTrace",
+          "source_files": "WXRocket/EnergyPlugins/CPUTrace/**/*.{h,m,mm}",
+          "dependencies": {
+            "WXRocket/Core": [
+
+            ],
+            "WXRocket/StackBacktrace": [
+
+            ]
+          },
+          "libraries": "stdc++"
+        }
+      ]
+    }
+  ]
+}

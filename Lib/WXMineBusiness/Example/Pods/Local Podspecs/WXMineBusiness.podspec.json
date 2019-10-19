@@ -1,0 +1,22 @@
+{
+  "name": "WXMineBusiness",
+  "version": "0.1.0",
+  "summary": "A short description of WXMineBusiness.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Teemo2018/WXMineBusiness",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Teemo2018": "chenjianneng@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/Teemo2018/WXMineBusiness.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WXMineBusiness/Classes/**/*"
+}

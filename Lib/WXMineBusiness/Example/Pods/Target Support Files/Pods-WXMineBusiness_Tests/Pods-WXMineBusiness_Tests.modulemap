@@ -1,0 +1,6 @@
+framework module Pods_WXMineBusiness_Tests {
+  umbrella header "Pods-WXMineBusiness_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

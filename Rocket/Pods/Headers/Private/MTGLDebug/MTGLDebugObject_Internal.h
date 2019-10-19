@@ -1,0 +1,1 @@
+../../../MTGLDebug/MTGLDebug/iOS/MTGLDebugObject_Internal.h
