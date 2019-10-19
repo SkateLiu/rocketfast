@@ -1,8 +1,8 @@
 #!/bin/bash
 echo $PATH
 git fetch
-git pull origin master
 git checkout master
+git pull origin master
 cd Rocket
 bundle install
 #拉取pod 库
