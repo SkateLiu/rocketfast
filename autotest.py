@@ -1,5 +1,5 @@
 """
-Simple iOS tests, showing accessing elements and getting/setting text from them.
+Rocket iOS tests, showing accessing elements and getting/setting text from them.
 """
 import unittest
 import os
@@ -7,7 +7,7 @@ from random import randint
 from appium import webdriver
 from time import sleep
 
-class SimpleIOSTests(unittest.TestCase):
+class RocketIOSTests(unittest.TestCase):
 
     def setUp(self):
         # set up appium
@@ -36,5 +36,5 @@ class SimpleIOSTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(SimpleIOSTests)
+    suite = unittest.TestLoader().loadTestsFromTestCase(RocketIOSTests)
     unittest.TextTestRunner(verbosity=2).run(suite)
