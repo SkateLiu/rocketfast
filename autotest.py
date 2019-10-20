@@ -26,7 +26,7 @@ class RocketIOSTests(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-    def test_ui_computation(self):
+    def test_ui_login(self):
         element = self.driver.find_element_by_accessibility_id('username')
         element.send_keys('dingdone')
         passwordElement = self.driver.find_element_by_accessibility_id('password')
