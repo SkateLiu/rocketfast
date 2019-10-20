@@ -488,7 +488,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingyu.rocketfast;
 				PRODUCT_NAME = RocketFast;
-				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = devAllProfile;
 			};
 			name = Debug;
@@ -507,8 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingyu.rocketfast;
 				PRODUCT_NAME = RocketFast;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = rocketfast_release;
+				PROVISIONING_PROFILE_SPECIFIER = rocketfast_inhouse;
 			};
 			name = Release;
 		};
@@ -529,6 +527,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b35c1eb-e9e5-4eac-a517-96d4f730e84a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5b35c1eb-e9e5-4eac-a517-96d4f730e84a";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketFast.app/RocketFast";
 			};
 			name = Debug;
@@ -546,6 +546,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b35c1eb-e9e5-4eac-a517-96d4f730e84a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5b35c1eb-e9e5-4eac-a517-96d4f730e84a";
+				PROVISIONING_PROFILE_SPECIFIER = rocketfast_inhouse;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketFast.app/RocketFast";
 			};
 			name = Release;

@@ -15,3 +15,7 @@ xcuserdata
 *.moved-aside
 DerivedData
 .idea/
+*.ipa
+*.dSYM.zip
+*.app.dSYM
+*.xcuserstate

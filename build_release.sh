@@ -7,6 +7,7 @@ cd Rocket
 bundle install
 #拉取pod 库
 pod install --repo-update
-fastlane beta
+ruby config_release.rb
+fastlane release
 fastlane deliver --ipa "RocketFast.ipa" --force
 #./autotest.sh

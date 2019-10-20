@@ -26,6 +26,11 @@ Push a new release build to the App Store
 fastlane ios beta
 ```
 
+### ios inhouse
+```
+fastlane ios inhouse
+```
+
 
 ----
 
