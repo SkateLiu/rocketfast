@@ -23,14 +23,14 @@
 
     [tester tapViewWithAccessibilityLabel:@"登录"];
 
-    [tester clearTextFromViewWithAccessibilityLabel:@"usename"];
-    [tester enterText:@"testusename\n" intoViewWithAccessibilityLabel:@"usename"];
+    [tester clearTextFromViewWithAccessibilityLabel:@"username"];
+    [tester enterText:@"testusername\n" intoViewWithAccessibilityLabel:@"username"];
     [tester clearTextFromViewWithAccessibilityLabel:@"password"];
     [tester enterText:@"123445\n" intoViewWithAccessibilityLabel:@"password"];
     [tester tapViewWithAccessibilityLabel:@"login"];
 
-    [tester clearTextFromViewWithAccessibilityLabel:@"usename"];
-    [tester enterText:@"dingdone\n" intoViewWithAccessibilityLabel:@"usename"];
+    [tester clearTextFromViewWithAccessibilityLabel:@"username"];
+    [tester enterText:@"dingdone\n" intoViewWithAccessibilityLabel:@"username"];
     [tester clearTextFromViewWithAccessibilityLabel:@"password"];
     [tester enterText:@"123456\n" intoViewWithAccessibilityLabel:@"password"];
 
