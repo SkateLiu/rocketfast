@@ -1,8 +1,9 @@
 #!/bin/bash
 echo $PATH
 git fetch
-git checkout master
-git pull origin master
+echo $branch
+git checkout $branch
+git pull origin $branch
 ruby config_inhouse.rb
 cd Rocket
 bundle install
