@@ -242,7 +242,7 @@
 				TargetAttributes = {
 					8F49F7BF1BB5C9DF00EF5B63 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 3T5W4RFJ3Y;
+						DevelopmentTeam = BAZSDKQR8Z;
 						ProvisioningStyle = Manual;
 					};
 					8F49F7D81BB5C9DF00EF5B63 = {
@@ -336,13 +336,17 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RocketDemo/Pods-RocketDemo-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/../../Lib/WXLoginBusiness/WXLoginBusiness/Assets/WXLoginViewController.storyboard",
+				"${PODS_ROOT}/../../Lib/WXMineBusiness/WXMineBusiness/Assets/WXEnergy.storyboard",
 				"${PODS_ROOT}/../../Lib/WXMineBusiness/WXMineBusiness/Assets/WXMineViewController.xib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/WXMineBusiness/WXMineBusiness.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXLoginViewController.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXEnergy.storyboardc",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXMineViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXMineBusiness.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,14 +485,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 3T5W4RFJ3Y;
+				DEVELOPMENT_TEAM = BAZSDKQR8Z;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RocketDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingyu.rocketfast;
 				PRODUCT_NAME = RocketFast;
-				PROVISIONING_PROFILE_SPECIFIER = devAllProfile;
+				PROVISIONING_PROFILE_SPECIFIER = rocketfast_debug;
 			};
 			name = Debug;
 		};

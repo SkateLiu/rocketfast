@@ -21,7 +21,9 @@
 }
 
 - (IBAction)energyButtonClicked:(id)sender {
-    UIStoryboard *energyStoryBoard = [UIStoryboard storyboardWithName:@"WXEnergy" bundle:nil];
+    NSString *bundlePath = [[NSBundle bundleForClass:WXMineViewController.class].resourcePath stringByAppendingPathComponent:@"WXMineBusiness.bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    UIStoryboard *energyStoryBoard = [UIStoryboard storyboardWithName:@"WXEnergy" bundle:bundle];
     WXEnergyViewController *vc = [energyStoryBoard instantiateInitialViewController];
     [self.navigationController pushViewController:vc animated:YES];
 }

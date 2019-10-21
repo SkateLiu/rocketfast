@@ -8,30 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 182887B1A7EA8FCA199CCA69AA0CB7D6 /* MASLayoutConstraint.m */; };
-		010C216DE6DFEE60BEF7E7A220FD027D /* WXRocketCPUTraceHighLoadRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8543084717636DC6C2C9222900D4FD22 /* WXRocketCPUTraceHighLoadRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		01EF7459AA0513660106CD7A752F4B58 /* WXRocketHooking.h in Headers */ = {isa = PBXBuildFile; fileRef = D11CCEC731A4443D316DE9E57CBD43F2 /* WXRocketHooking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		010C216DE6DFEE60BEF7E7A220FD027D /* WXRocketCPUTraceHighLoadRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D82E928BE4A086FC66DC78C78919B8DF /* WXRocketCPUTraceHighLoadRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01EF7459AA0513660106CD7A752F4B58 /* WXRocketHooking.h in Headers */ = {isa = PBXBuildFile; fileRef = 57355ED556CB33F33B4BAFEDA4D52615 /* WXRocketHooking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		02E48BED7497F37CDDBB6AF0ED905260 /* MTGLDebug_Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6E5FE1C6F1393A98A3966751F56352 /* MTGLDebug_Platform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		03DC148384AC5F2807E9B685E9A47689 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A45BA29839F08CE30BEE0115ED16DC /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0434361DD5E786BD02F9FCBCD9ABC8C7 /* wxr_stack_backtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = A575C5ECB8D2D4A476B9A47FB5668717 /* wxr_stack_backtrace.mm */; };
+		0434361DD5E786BD02F9FCBCD9ABC8C7 /* wxr_stack_backtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 61FD666230B844DA4EA11EDA5B75237A /* wxr_stack_backtrace.mm */; };
 		051933F0C2210F8B7B7CD69E254CC186 /* mtaf_atomic_oper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7FD6875C9E0B188D80C36F86E796F0 /* mtaf_atomic_oper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		054FE3C378303E50A2D127C8B8B607FA /* mtaf_mmap_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C256500EE5BD7E8E7DF7BC77569D5 /* mtaf_mmap_file.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		05A37FED9DAAE9E3BDBACFE169B6CFDF /* WXR_RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF94584426699E7406A446C96DA0E780 /* WXR_RSSwizzle.m */; };
+		05A37FED9DAAE9E3BDBACFE169B6CFDF /* WXR_RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EC8DB93E4359C1D3857C54C3A87B5 /* WXR_RSSwizzle.m */; };
 		0667240EC4E2C0EA86D5BB71C23DF3A6 /* mtaf_autobuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D4C69B8F2E1A5E309F3C04708C3EB /* mtaf_autobuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		09FB6DAF0470EBABBA010DB6600018D9 /* MTGLDebugObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 882451B91EC38749559BF9AF059799BB /* MTGLDebugObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0DFB1ED1AF8354831B98F9EF01D57ABB /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3609CDB0E6DC885546DA3ABE2444D23 /* UIView-KIFAdditions.m */; };
 		0E923F624BBA831179532497ABDDD3BA /* MTGLDebugCoreBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0994DE26AADBC36040844594C09F1E5 /* MTGLDebugCoreBridge.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0E9ED8FA154A7694211ADB3D01376F4F /* WXRocketUserDefaults+CPUTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BD48BC4F7BE146094F66584B40B7BE /* WXRocketUserDefaults+CPUTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		106C072E73B09D699B19ED480C4FDD49 /* WXLoginBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E9109FDD0FE32F152124B91B90EE4D /* WXLoginBusiness-dummy.m */; };
+		0E9ED8FA154A7694211ADB3D01376F4F /* WXRocketUserDefaults+CPUTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 4480D8089552A626499B3464515AF595 /* WXRocketUserDefaults+CPUTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		106C072E73B09D699B19ED480C4FDD49 /* WXLoginBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F4971AF90C44443E71F611852A4CE /* WXLoginBusiness-dummy.m */; };
 		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0323C9B58A509A044630F178FE53C1B5 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		11A5F2AD36244FC38C1673DCBDA402EE /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E4762E5888546B2B66DDC88755C1AB0A /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11EC87A6E4FE3F3E1229F7715599D9A3 /* WXRocketUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E0C962C830A38ED82B1E58550D810 /* WXRocketUtility.m */; };
-		1375651573B2A1A54CD6B7EB899C91FF /* WXRocketCPUTraceAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 82653B3C3EE3179E40487C5BBD6A4FE6 /* WXRocketCPUTraceAdaptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11EC87A6E4FE3F3E1229F7715599D9A3 /* WXRocketUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B1B767E4330C77556421E70DFEC65C /* WXRocketUtility.m */; };
+		1375651573B2A1A54CD6B7EB899C91FF /* WXRocketCPUTraceAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8C2312BA05ECF3DBC0CB0FDCB235C8 /* WXRocketCPUTraceAdaptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		17D16B03976DC670941104DF6C99F2C8 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3167F2F12C90E9699CAC692672594 /* KIFUITestActor.m */; };
 		183A6D5F0ED1D69B860CC7595539B5AD /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A3E9DB629D126190B000A10E178DF /* UIAccessibilityElement-KIFAdditions.m */; };
-		19263E44F447E2527363E938D1DEBF23 /* WXMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CCEBCD1B5D2BC34F71279CC0D5E5E1 /* WXMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B21F3BDAAD64F430ACDB82FC7090EAA /* MTGLDebug_GL.h in Headers */ = {isa = PBXBuildFile; fileRef = B419DAEAF328804916A13CE0F5519176 /* MTGLDebug_GL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D2A88AD35A43D0457229ABB6BA087AC /* WXRocketCPUTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF97EB0FBF03D5D1912FA7F8DDB41C0 /* WXRocketCPUTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D436F005E12E5E04A25A58207EA8D9C /* WXRocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7BA1B826CCFBFD5A936F474C01FD9 /* WXRocketClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D2A88AD35A43D0457229ABB6BA087AC /* WXRocketCPUTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = D4759816999DE627EBE341845BE4FD5D /* WXRocketCPUTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D436F005E12E5E04A25A58207EA8D9C /* WXRocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CCBA893DB5DBF73B5138ABD2618F62 /* WXRocketClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D566CDEC3F88E63C8EFF599FEF6B136 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0C699A6572F861B9BED043F5EBE0 /* XCTestCase-KIFAdditions.m */; };
 		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BFCA02BA6713FDA10A3EABA8D7237 /* MASConstraintMaker.m */; };
 		1E92308842F1628DD406C869A953C1E0 /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F493E97C14E09C87695D242D2449F90 /* KIFTypist.m */; };
@@ -39,68 +38,67 @@
 		1EEA0C9B9EAA715030AB700B496C0C27 /* MTGLDebugCoreObject.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7A3F307E47B034B9CF5F6EDCFE4A802A /* MTGLDebugCoreObject.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		236F2AACBD2A6C9FCE6787E9326244FA /* MTGLDebugObject+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FFB704C00B92997477564275FA11CA /* MTGLDebugObject+QuickLook.m */; };
 		24EFBAA2D1190BDD061C942E7B980907 /* MTGLDebugCore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 482E65CE45706AF77A920B6660E13563 /* MTGLDebugCore.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		2593C871D5FF58152465DD0E58358417 /* WXRocketPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 727D6AC362B4F1525C5765CF20B9FF45 /* WXRocketPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2593C871D5FF58152465DD0E58358417 /* WXRocketPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F6C06A3A78C19B7DAC3E18DCEF253F /* WXRocketPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		25DFD4D15FFF8CCF6ADEF657E040F9B8 /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A495F908B6D817C766947E9A14C8B1EE /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		262C26EDA85D90613B5EF172FCA679C5 /* WXMineBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C66FFA7284C1D7F072437D69FD1E6C /* WXMineBusiness-dummy.m */; };
-		2889AD30F5E99C17BD27C8C3BFDD9E2E /* WXRocketStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A20CFAB34FC01F66EF9390D31655196D /* WXRocketStorage.m */; };
+		2889AD30F5E99C17BD27C8C3BFDD9E2E /* WXRocketStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE00B30E406A45F819A4B0FDE569EAA /* WXRocketStorage.m */; };
 		28EE1597D49EEC635522C951B57940C5 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CD3B00181EF13F93889BD18C138175 /* SVProgressAnimatedView.m */; };
-		2B0787C7C5F66482E9B55D5A59EDA212 /* WXRocketCPURecordsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27199071745D35465B10AE8C72188569 /* WXRocketCPURecordsViewController.mm */; };
-		2BF7900E6F624676F1C1029CC994AF42 /* WXRocketCPUTracePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD0194735A9DBC369C5F37213C51262 /* WXRocketCPUTracePublicHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B0787C7C5F66482E9B55D5A59EDA212 /* WXRocketCPURecordsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E156AD8C9C3F95AF81BDB88D74AF4BD /* WXRocketCPURecordsViewController.mm */; };
+		2BF7900E6F624676F1C1029CC994AF42 /* WXRocketCPUTracePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3088A0F17428E8BB6FA0ACE52E96A738 /* WXRocketCPUTracePublicHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D829394D947C1D5CCF3E9698BD08489 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67891EF99FE40C1BCD27F3692EE6967 /* UITouch-KIFAdditions.m */; };
 		2E2A2BA7AD8C6A720B2911157C2A042C /* Pods-RocketDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 204C3965E4081793B38AC11171486DDF /* Pods-RocketDemo-dummy.m */; };
-		32820C9F428F2D49E1511877D020ACC6 /* WXRocketCPUTrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C048D6BC7E0BA97365C5DE6AAA9A9FF /* WXRocketCPUTrace.mm */; };
+		32820C9F428F2D49E1511877D020ACC6 /* WXRocketCPUTrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43F97DBC9083DAE1EB2782D48055FCFA /* WXRocketCPUTrace.mm */; };
 		3382B01C0015EDA1E458CF47C6461505 /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52974A5B7B56A3E6F0DC6E8143324A /* UIScrollView-KIFAdditions.m */; };
-		35BD6A7289D48383C1A695F0E7974FCB /* WXRocketInnerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE65A587EBAEDB85E58C5FACB31923A /* WXRocketInnerLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35BD6A7289D48383C1A695F0E7974FCB /* WXRocketInnerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C4403DD0D04438E5355D67696CF97F24 /* WXRocketInnerLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		361633B2E19AE287D73A92AA405DE80E /* mtaf_ptrbuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7CF06F21E7245EECE9B37519AFA4324A /* mtaf_ptrbuffer.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		36327E5CB0D2AAAD1DFCA613347899E6 /* __mtaf_assert.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C7659C9CC1A305A62890D04DD8C31A6 /* __mtaf_assert.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		380E49D83A66E22299557FA9A8899488 /* MTGLDebugImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A97177C63C2D821D3FDDBD639D88E79 /* MTGLDebugImpl.mm */; };
-		3AD24A634D5734620F31BF85281610CF /* WXRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48473F67F5891DB79C849961639437DA /* WXRocket-dummy.m */; };
+		3AD24A634D5734620F31BF85281610CF /* WXRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2B0FBF4A1489B0D04CD1C26636D5D /* WXRocket-dummy.m */; };
 		3B247F1603D358519D0BCFB7E7A5590A /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 279274395C3246D33557E7CA49CBF02D /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3B36A27B03BFDBF605B2AF989A2AB332 /* MTGLDebugGLHookFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = C8ACB61AB68CB6C1F90D00435B5E8D58 /* MTGLDebugGLHookFunction.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3D3B6554D6C1EF56A419DC01DF6C8C66 /* Pods-RocketDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B67D4FD315055DEFE5AC6CF5652028 /* Pods-RocketDemoTests-dummy.m */; };
 		3D4DB97557D32E5528CDCB435182903B /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7779356DC71FFF9715C5347EAD0C79 /* KIF-dummy.m */; };
 		3EA5C49D7EDE6D3FC19AAD72AF6B0186 /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF40CAFC330E6706498C3C67C9D679C /* KIFAccessibilityEnabler.m */; };
-		3F3629F12CD4242A615562D39108E146 /* WXRocketLFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383C73BD58A431807A5A63E2595C2E27 /* WXRocketLFUCache.cpp */; };
-		410BC1A3D487399B87D918BE4D3C2E3E /* WXRocketCPUTraceHighLoadRecord.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09D4F879D79EA8D3CE090669B3658F88 /* WXRocketCPUTraceHighLoadRecord.mm */; };
-		41DC26286199EEAEC934E36255B1A98F /* WXRocketDefaultPlugins.m in Sources */ = {isa = PBXBuildFile; fileRef = F11C1285783876F079A4C9C6A7AADC46 /* WXRocketDefaultPlugins.m */; };
+		3F3629F12CD4242A615562D39108E146 /* WXRocketLFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F49F44BC9056E87596150DB1C60D29A /* WXRocketLFUCache.cpp */; };
+		410BC1A3D487399B87D918BE4D3C2E3E /* WXRocketCPUTraceHighLoadRecord.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83CFCA318F63B7B217CA1975270A063C /* WXRocketCPUTraceHighLoadRecord.mm */; };
+		41DC26286199EEAEC934E36255B1A98F /* WXRocketDefaultPlugins.m in Sources */ = {isa = PBXBuildFile; fileRef = 5018F61235FC6147A75546090E6EF88D /* WXRocketDefaultPlugins.m */; };
 		41EDC9F2A323C7DFC79B5C7072DDD37D /* MTAppenderFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 196062D1DA5429A0E0CD2E2C3FFD43EF /* MTAppenderFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3332B9CD422ABA999CD1255CF0DD9D /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		454E6D96F42A050F48CC9CB74D392BF9 /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B780C3A18F7AC395DC222B6CC05CE92 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA0982D4CC838F764A396B7D3B9E80 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4669B68BAD6BB030EBA8AD4A6B32DCCB /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE9C80313F5D2E29336A470D7247870 /* KIFTypist.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46C5B4D1C1EB683DE824593F3E0EBCE0 /* mtaf_platform_comm.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB2568D55D31FF27FE39ED4E87EC2858 /* mtaf_platform_comm.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		488D70CCE66E925352140D0C72C4F1D5 /* WXRocketSignPosts.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863DF366260961580E6B30D1FD6B78A /* WXRocketSignPosts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		488D70CCE66E925352140D0C72C4F1D5 /* WXRocketSignPosts.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AC89CDD7DFD987C492258A7E26ADC5 /* WXRocketSignPosts.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4971C5D36C8DB492740A46B331AB537D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F5635F40F48E7858F707BF712C396A /* SVProgressHUD.m */; };
-		4A494A70E03FF3D7E03EB5C30FD9B0A0 /* WXRocketInnerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40648AEC5EEC10818EC3027F32BCC76F /* WXRocketInnerLogger.m */; };
-		4AEF05CF2FE8BA3C20A6F73FEE8FA840 /* WXRocketUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E55B0AB178BCDFCF1B8618725FEEDB0 /* WXRocketUserDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B5533B8D29462E8606119BDF6878F9F /* WXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94B8355B9F1F3E6B28A53A6084E19E /* WXLoginViewController.m */; };
+		4A494A70E03FF3D7E03EB5C30FD9B0A0 /* WXRocketInnerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEDCCF9015907888C1FC70DCEFA5BE /* WXRocketInnerLogger.m */; };
+		4AEF05CF2FE8BA3C20A6F73FEE8FA840 /* WXRocketUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFC997494A8E94AE553359A27630AC7 /* WXRocketUserDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B5533B8D29462E8606119BDF6878F9F /* WXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330057B40F6146698D77F12221D27CA /* WXLoginViewController.m */; };
 		4BA3BC60EBE0DA1944EC10B195FEC857 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 500DFD758703582DC52F56AC6D73D32E /* KIF.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BD46C71AC639E0E64213A432E546308 /* WXRocketWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B90E37BA7E02BEA2A0E128212A9D76 /* WXRocketWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BD46C71AC639E0E64213A432E546308 /* WXRocketWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BFA41B0B1C8FC0D2C711213A9401AE /* WXRocketWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 353484E24F4915E52F19CAB522B690ED /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E2CF390531454E6AD73103C9E2080DD /* MTGLDebugObject_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF0891443061192431F64600ED7B82E /* MTGLDebugObject_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50E81EB716F0B591A2E06E63C6BA2909 /* WXRocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD98FDE1ADBB5689F4E5072983CBB9E /* WXRocketClient.m */; };
-		5178D93F4E1266AC30BE1D0E7FE5F852 /* WXRocketStackFrameSymbolics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5696817216F699C5D831222E6457C876 /* WXRocketStackFrameSymbolics.mm */; };
-		52F1F34EADE876C8E1AB9EEC191B5A5F /* WXRocketHooking.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59F26186EC86ECE7DDE34738D40E2A /* WXRocketHooking.m */; };
+		50E81EB716F0B591A2E06E63C6BA2909 /* WXRocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1778040491DB148B445E654A2515E1A6 /* WXRocketClient.m */; };
+		5178D93F4E1266AC30BE1D0E7FE5F852 /* WXRocketStackFrameSymbolics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDAF64F3292112505A7EEF639FD26E /* WXRocketStackFrameSymbolics.mm */; };
+		52F1F34EADE876C8E1AB9EEC191B5A5F /* WXRocketHooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5FB663BF8D0FF757CB1F583D81F9B /* WXRocketHooking.m */; };
 		53CBA39219FDDE0448EA5B69F82E2DA7 /* MTGLDebugObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C74526F70D1FEE9E4D3608AC91D7 /* MTGLDebugObject.mm */; };
 		545325DBA1132F1E2DA1C20B95108395 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9271E5E8B81FAA9346211647A2A818 /* SVIndefiniteAnimatedView.m */; };
 		55C72CF7445E93D624925AB021E22DA3 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88787B904BD61672AC80C8088ACB076F /* UIEvent+KIFAdditions.m */; };
 		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2ECB7C0D97D4EDFF6E16E6751B6DA5 /* MASViewConstraint.m */; };
 		596B9AEB1942806B1E23A253A1C320E9 /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F5077384985A8B9B67B51FB0458F3 /* KIFUIViewTestActor.m */; };
-		5975BE7BD0A0B3DD81D1343DAAC2D446 /* WXRocketCPUTraceAdaptor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF696720FF92815730D0C19CE9A8B2 /* WXRocketCPUTraceAdaptor.mm */; };
+		5975BE7BD0A0B3DD81D1343DAAC2D446 /* WXRocketCPUTraceAdaptor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77B06CEA69B391049DE11BE3E4467115 /* WXRocketCPUTraceAdaptor.mm */; };
 		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3905BF2448469BAD41C61E6EA98EF4FC /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		5AEFAFA02F13335DAF89F55072DE6F9E /* WXRocketDyldImagesStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFEF53A598C7DC93CA6E3E608368957 /* WXRocketDyldImagesStorage.m */; };
-		5DE65CB0219F14EA34AA4CD3E6CCCBB5 /* WXLoginDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3099B6887CCF662ED28887C3E7857388 /* WXLoginDetailViewController.m */; };
+		5AEFAFA02F13335DAF89F55072DE6F9E /* WXRocketDyldImagesStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = E9627E4C7E9DF2B87E7B52C6CF0E4580 /* WXRocketDyldImagesStorage.m */; };
+		5DE65CB0219F14EA34AA4CD3E6CCCBB5 /* WXLoginDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BACB92FE5E07BBBF23A1DD93BD494D /* WXLoginDetailViewController.m */; };
 		5DFABD943BB2024CE2B3CBD98655B933 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C3E59DB835DFFF184AB4773DC71933 /* KIFUITestActor-ConditionalTests.m */; };
 		5E8D962A3123BBFF502AC3BFCFA0331C /* mtaf_appender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82BBC8972619F80DFDFD6D25127880F8 /* mtaf_appender.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5EB674C318B9409E2603D5A864AEBD72 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E0965812FE9EAC9CCD083EF81E7CC0 /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		62B3DA1A1DB4C60D7E449A43882CA275 /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B25E27B1E14EA49C62C2F7D71ECE16 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B94B62071886C57A44FAB3E35F55761 /* MASCompositeConstraint.m */; };
 		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B6F7A63BCE8633DBE0FDAED85BD361 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66932A01C132051A3C5A5140D8DAACD5 /* WXRocketDefaultPlugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C5037A4F9F6FC7F8810E42FDCF0475 /* WXRocketDefaultPlugins.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66932A01C132051A3C5A5140D8DAACD5 /* WXRocketDefaultPlugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FBB5D13538A39FAA863915571E11AC /* WXRocketDefaultPlugins.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66C71F9E07725557979DB44FAB207440 /* mtaf_runnable.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1F55E8DDA7BFF5A1F335B2D626FBB5 /* mtaf_runnable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		690C0833B0D64CD01DF433BFE3F30720 /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D2272427F76D2CE932118A8F3046E4ED /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6922FAD043C05F944C04686E299E4B4D /* WXRocketUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 718DF4AF1503B02207F697862D49E6F9 /* WXRocketUserDefaults.m */; };
-		6958DAD41E98EEBCB95187F3C1CA7D4B /* WXRocketLFUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ED68BD11237ACB278F181C6187EC3AFB /* WXRocketLFUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		6922FAD043C05F944C04686E299E4B4D /* WXRocketUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D6787AF3BA0324984D71B7F51D259E /* WXRocketUserDefaults.m */; };
+		6958DAD41E98EEBCB95187F3C1CA7D4B /* WXRocketLFUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 17835DB1D37DD9157AAAA3AAE9CA3D8D /* WXRocketLFUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		6995F2B99ECB4E5997F24F97ABEAD296 /* mtaf_log_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 849E701B7DB2B2BF51F2F489FD5EF6E1 /* mtaf_log_buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		69A4AEC59BEE149524DA702504D4D711 /* MTGLDebugImpl_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B450F9024021F5EC11D0586C7167C0 /* MTGLDebugImpl_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		69EFDCFB1A74A0E20C64B9CD14A30D3E /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A3BE630D24FA886C70C4748A82993 /* UIScreen+KIFAdditions.m */; };
@@ -108,9 +106,9 @@
 		6C07563B9B8ADAE89A3B912A50B11472 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C66E60D9FB00200EDBD2A731C5D1FEC2 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CAEC3D24ADC793EF53C141BBB16E0D5 /* mtaf_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BB4D4CCAF25FAA15A3B89062ABC60F /* mtaf_lock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CD3A662D6D61E955D885E94E0985380 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EED2D75617F00E232BB985A75FB7464 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6EDF32653A86DD367C64E85109080BB5 /* WXRocketStackFrameSymbolicsRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = BB82EA886636A6697DBDA8EE9A6F3BC9 /* WXRocketStackFrameSymbolicsRemote.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		731D45C635843FD78D34EB4B24B39B09 /* WXR_RSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 394AEA78C13155B51C9CD2F4514C5E19 /* WXR_RSSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		742500B1C0D0B9281337623B57106B3D /* MTHawkeyeEmptyHeaderForCPP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 78B88497F8220944EE34BCB092A4C2D3 /* MTHawkeyeEmptyHeaderForCPP.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EDF32653A86DD367C64E85109080BB5 /* WXRocketStackFrameSymbolicsRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FAABC674E34F9133413850AC31BC32 /* WXRocketStackFrameSymbolicsRemote.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		731D45C635843FD78D34EB4B24B39B09 /* WXR_RSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F52BB699CF1CFA05EB236EC06AEC83 /* WXR_RSSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		742500B1C0D0B9281337623B57106B3D /* MTHawkeyeEmptyHeaderForCPP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D824DFFF5AD6E90C5C282DB48B34305A /* MTHawkeyeEmptyHeaderForCPP.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		746703AF68F6E89C35029B801AB76158 /* MTGLDebugObject+QuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69229419594745E0902385C59EBB42A8 /* MTGLDebugObject+QuickLook.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75E8358546F5671993753468A5614591 /* MTGLDebugCoreObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 715DD44810107C0ADEA7BA5DC378FD87 /* MTGLDebugCoreObject.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		76FA0A7C12734B4C0FEF6F0CE4DC44BA /* __mtaf_assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 40143AC1D4F0C9CF82E87FE73685E857 /* __mtaf_assert.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -118,66 +116,65 @@
 		7789FD1AD2A429F5BCFE97E4D24BEE62 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DAD5D238873BB66380AC558C3B97D0 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7814CD6CBCAFDFFC0830591BF2B973D7 /* mtaf_base.h in Headers */ = {isa = PBXBuildFile; fileRef = B47CDC957F33EE0AB23794E6F32A9675 /* mtaf_base.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		787F33BEDF462E9896203DF95E6A572E /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C5E02486B3C346EA9732BB3F9312A8 /* NSBundle-KIFAdditions.m */; };
+		7933DBF410331B9642B745F3D6B9053E /* WXMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E27A966FCDF37C9A535AEC30B44F87FE /* WXMineViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B66E8595868E3745DA05B819281CE9 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D356054FEA5AC9CB8E83DB2C3C6EFBB /* WXRocketDyldImagesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 82507325534A8343004D9D9C0E8EFA53 /* WXRocketDyldImagesUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D356054FEA5AC9CB8E83DB2C3C6EFBB /* WXRocketDyldImagesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C382C441A9DC750DC74D0839C4761264 /* WXRocketDyldImagesUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7DD1DE825A089BFBF6E069BC06888333 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51837626B4600A6E83306D728A1B094A /* NSPredicate+KIFAdditions.m */; };
-		7F0A5506AE0A37EA963BB6A614B91132 /* WXRocketDyldImagesStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7BFB171DE1049B683F68319B86EACB /* WXRocketDyldImagesStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F0A5506AE0A37EA963BB6A614B91132 /* WXRocketDyldImagesStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ACE8BBB229D576B81267C1F1A15B9C /* WXRocketDyldImagesStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7F78FA2CC4DE0F2E9630EA454D6C1446 /* MTGLDebugCore_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9132C1FBA7EBD4AC6B0C2FAAF405FB1D /* MTGLDebugCore_iOS.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7F7F3627C39B11C76718B4F5D9BE564B /* MTGLDebugSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F3612E93FFD98AAAB8271AC3A1D4271 /* MTGLDebugSemaphore.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		804ACFFBF747EE032103C563D51FA252 /* mtaf_time_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = DF8340DF0E61147347AF0E18C280D5AF /* mtaf_time_utils.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		814ED6B202D47C8F52685D394888BC30 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 850D9C4E72D17BB4CDEEB13826713BAA /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		817089501298DBB54F4D57F35D2F2060 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 093259928E70DE07609925A25571ED1B /* CALayer-KIFAdditions.m */; };
 		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F72D19274680696E7AB2D5384C189444 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		82493EED69FB7FD727E051A570B072DF /* WXRocketInitHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA72FCC55111BF3D611137852625114 /* WXRocketInitHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82493EED69FB7FD727E051A570B072DF /* WXRocketInitHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F97227A4CACAE2ECAE50FD7075286897 /* WXRocketInitHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		831F0BE8F4BF5DDE40793291A0E4B0B4 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 634B6CF80AB354E98601A411975722BD /* KIFTestStepValidation.m */; };
 		84FC1D0C63F774E161FBC64E2B5B47DB /* mtaf_spinlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 58172E8770C143EAA3ECE405FE3C0134 /* mtaf_spinlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFA395833B3ED792A5D286F035F61A6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		868B85A0DDA914336BCAB8D7FE978449 /* MTGLDebugImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 73427622F90C1076C3FD06958C2E8F1A /* MTGLDebugImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		881807E5C88BF11E7653D12E06459DC5 /* WXEnergy.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 71186CC95F35911B15CB438FBCF173FB /* WXEnergy.storyboard */; };
-		88A6DCD8F65BECA95022E6DEB8ACA711 /* wxr_thread_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0956461DF787A5C0DB1DD9F9C790217D /* wxr_thread_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88A6DCD8F65BECA95022E6DEB8ACA711 /* wxr_thread_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FAACF1DB7B45AE35CD6A5278D25464 /* wxr_thread_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		88B9DC20DA835EBC92DD72D67718431B /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 844137E9B829CC2D88C1CF754A76D935 /* UIAutomationHelper.m */; };
 		89BDF646743341D31827ADD08A01946C /* MTGLDebugConditionLock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AACDE44C566E72223CF91EB104060D51 /* MTGLDebugConditionLock.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A37CB9B1BE3A9E966913AD3DB555D9E /* WXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921FC0E6D786E8E26E5CB7B27B2B65D /* WXMineViewController.m */; };
 		8C9E5D362CFB43F49730750E8BC0A393 /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADB91F04D7F82445E506774DC45A00F /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D58ADCFBE85900BDE3475845EE9616E /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40729265B545335E98F5865410C53243 /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E553AAB85C32185FB995B312E9578CE /* mtaf_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FA89EACF1FDBE2402249398B8389A1 /* mtaf_thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F1725B5184E8C33A9E7A380F1FD9CBD /* WXRocketDyldImagesUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = E12BB1C7BB6F7444DDC57FA8125BB8CB /* WXRocketDyldImagesUtils.mm */; };
+		8F1725B5184E8C33A9E7A380F1FD9CBD /* WXRocketDyldImagesUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88A4D65F1DF8DC3030F76652B3BA64A0 /* WXRocketDyldImagesUtils.mm */; };
 		90EA1E1A3588AD0F218F32BAF7B592FA /* MTGLDebugGLHookFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = DADA7266D1D18E8684CF6BBEA92B0508 /* MTGLDebugGLHookFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF73F83E4936FBE355D0F5CADE42AB0 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		91A4BE545E49AE694E3FDFC3ECE0A774 /* WXRocketLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D487FD16254A19F9535120F6D312D613 /* WXRocketLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91A4BE545E49AE694E3FDFC3ECE0A774 /* WXRocketLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7206F5CF65D0266F10B3D39E3D0E12B3 /* WXRocketLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		927E32AA323B92B76301C98C9575FD7D /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA52AE2E094F32B918B6CEF7B07444F /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 77560F84DE970ED0460B87C803968116 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		938D54C88ED27CB7E522D48A631FD010 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADC26F8BBA0CEFE51587B1F6A32F949 /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		949316307FC91213EDBA675C3C90C239 /* MTGLDebug_Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A6BBD09E4B98371C42C041FAB0241B /* MTGLDebug_Macro.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		94DC0CADB0EEF556E6402A589A0BB986 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DE5BF00EE10A8DDEA148E4A343F372 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		98987D33A35972AE643F923AEC9E92BD /* WXRocketStackFrameSymbolics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD3E618DCCC12A1DFEB6D20A265E621 /* WXRocketStackFrameSymbolics.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9AB8240AE6555C195BBEA825BBCADFA6 /* WXRocketWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB855A21C34E66ADF8E2DC71670A6BF /* WXRocketWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98987D33A35972AE643F923AEC9E92BD /* WXRocketStackFrameSymbolics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C61CCEEEC5D3B30DD649423EE49035E /* WXRocketStackFrameSymbolics.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AB8240AE6555C195BBEA825BBCADFA6 /* WXRocketWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0185F4F036D084F52C5186DF30B6DB75 /* WXRocketWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9BD7E9727D790226561E7B1ACA609CF5 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D685FAF870E9B88BF07E5F6CBAFAA9F7 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D1A7A18C0FC30ECC451B160BC37E411 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B46976DE34BCE76F4DA8A1EB907ED66E /* UIWindow-KIFAdditions.m */; };
-		9D5340B40827FF7AA519F5646F7A3333 /* WXRocketWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EEC1FB33B5CC10D1FCBB6B347D7B7 /* WXRocketWebViewController.m */; };
-		9DCC3F655C5B0D398365FCC5729B4E91 /* wxr_thread_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 371DBD6EF987BD17AD661DBC373937F2 /* wxr_thread_utils.mm */; };
+		9D5340B40827FF7AA519F5646F7A3333 /* WXRocketWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB31DEA63E352C4BDE3F97493F8F17 /* WXRocketWebViewController.m */; };
+		9DCC3F655C5B0D398365FCC5729B4E91 /* wxr_thread_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC03DBC6A73C187E35D7C9EB97926CF3 /* wxr_thread_utils.mm */; };
 		9E6A86D1D3983E3AD2802CA2B480D515 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DF3CC13A659BDDEE588193E0865BB9 /* SVProgressHUD-dummy.m */; };
 		9E9C15E5F0208F9DD6E83E40B5268819 /* MTGLDebugSemaphore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 40CB6D503F12385DEE019CB1739CED2C /* MTGLDebugSemaphore.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		9FCEC5A19D73355DAF59B84FEF6B407D /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2825CB5AB59EBE21B6BE201A8A02D /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9FFC9AC6578BCA9F97BB695C5F6E4AB6 /* WXRocketUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B69B01085C1C72C400EC1DA1D09A9C /* WXRocketUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FFC9AC6578BCA9F97BB695C5F6E4AB6 /* WXRocketUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 5907F4EB31EFCC393DF8C8B3C03EA303 /* WXRocketUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A035DA28938A467BF61B3BB79728A2F0 /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540455CF3F5F1C3EC69379522A036AC /* KIFUIObject.m */; };
 		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8326BA08E1C74C64BE6A72D4A4FC22BA /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4CC3C3624ECD4160E9884BDC830CA5F /* WXRocketPropertyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 72269D0563A738D25B9633DD444FB9D1 /* WXRocketPropertyBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A56B8C81C81623C1569E4FE457F085BC /* wxr_stack_backtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 620BC9D2F33D096337FBE6A35FDB221E /* wxr_stack_backtrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4CC3C3624ECD4160E9884BDC830CA5F /* WXRocketPropertyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 668BF8B0B8AFD33FC15BB714E9DBD079 /* WXRocketPropertyBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A56B8C81C81623C1569E4FE457F085BC /* wxr_stack_backtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CDB450C1EE9D79A3744B7417545D9A /* wxr_stack_backtrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5CF3C7BA53B443F00D0969B44CE496E /* mtaf_mmap_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F20BAE909A9C6F64E02C99E55B11F8 /* mtaf_mmap_file.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A759C1F8ED595C6A445EA0AFA5CB9619 /* MTAppenderFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAAD4749C84D740A991FF53F7BAD5124 /* MTAppenderFile.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A79375AB688BD77C6ED0F4B98193483B /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 035F8DC4E4FA849A50C8C98B129372AE /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3573234ED1D8AA506EF6654AC4D3920A /* MASViewAttribute.m */; };
-		A96AF2CF2EF14F78A2153ED197C5964B /* WXLoginDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A31B8A4AA9505B7807FA674EE6C1FC94 /* WXLoginDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA155DE5051F07C7E8AC27D68FFBDB46 /* WXRocketWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D943E1D2DBD4DCA93CE41088F9CC7 /* WXRocketWeakProxy.m */; };
+		A96AF2CF2EF14F78A2153ED197C5964B /* WXLoginDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A2079672C41CF16183DFA0195D0B9087 /* WXLoginDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA155DE5051F07C7E8AC27D68FFBDB46 /* WXRocketWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D4B51F85997F3C580072E0AEA178DC /* WXRocketWeakProxy.m */; };
 		AA158DEC6780EA79D2C246C404E4E5AC /* MTAppenderFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E01C3DE51281F768B23824ECD34403C4 /* MTAppenderFile-dummy.m */; };
 		AEA914EED431F7C57DC1F6288F6AFA2D /* MTGLDebugQueue_iOS_Bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 890B4ED49457960F4EC774BAC65D4AA5 /* MTGLDebugQueue_iOS_Bridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF52D8B8732DB4140683E589BC73AD22 /* WXEnergyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9495C2D9EEFD24A41E752F8ABE376AA4 /* WXEnergyViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B933041D4E1597D2B58DA065965BF153 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBCCA8C363393D0AB807B7D8977657 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B29A9B8C4EB75089C9D44B711BB664DD /* mtaf_formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 389068D9ABF002A0CE1D268FB253CBC2 /* mtaf_formatter.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B358FC4F632EFF64D53CC65EADEF0B81 /* MTGLDebugQueue_iOS_Bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE22CC21A214F9BD55342B01FAE79D98 /* MTGLDebugQueue_iOS_Bridge.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B4890BBC6E9BC7AC59FF80E292FCA2FB /* MTGLDebugCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 530F499AE7D930932FDE8B4C07923DF3 /* MTGLDebugCore.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B611ADF900A3F3F22659ED47BC1DAD3C /* WXEnergy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD6F666A7728CB87F31851F4A49B67F /* WXEnergy.storyboard */; };
 		B86A3E6FF8C0DF5F054715CF06375234 /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE848DA8E5D48B4CB75493CCF490B23 /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B930CBED65F2991F3ED0BEE7AED1F426 /* MTGLDebugCoreBridge.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5EC39073933423EC3119D5D38A968E6D /* MTGLDebugCoreBridge.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DDA101E85D35DD703A9EAA339A2756 /* NSArray+MASAdditions.m */; };
@@ -187,33 +184,34 @@
 		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B93F9DFE790336A0E668FAB5CA39D4 /* ViewController+MASAdditions.m */; };
 		C1F88B7443132E929BF7D1DE7863D65D /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0061B04D30851F1116AE0E16F9B8BC28 /* fishhook-dummy.m */; };
 		C5C468B4C6774B0DFC0DDB82C8435468 /* MTGLDebugGLFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C20196346E4EC14B8CCD4604C2DE5FB /* MTGLDebugGLFunction.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C60055B817A4622016B46EB6415CAF82 /* WXEnergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE945F3ADF9E43004471CEA27516530 /* WXEnergyViewController.m */; };
 		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6AECD5E947472FA6503A31E6CFF7DA /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD9CDF94B2B4A868DFFB49EE9E650DD /* View+MASAdditions.m */; };
 		C8726BE54CA4A4E4D275A51F4C2CC4D6 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = A992CFB8F529637FF8E22C79D613626A /* KIFTestActor.m */; };
 		C88C3FCE49EA0CB75F4E7A4358187734 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 480E2533786131EC570D84A15B7AE282 /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C900A514C00335BE1CB94034F225B873 /* WXEnergyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EABD8B0D9E5DCF10E34FD6C3373D1B /* WXEnergyViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CAD9B1A9724781CB4DD3A11AE8083713 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C6A559AD2EC286F5A442271D24A11 /* IOHIDEvent+KIF.m */; };
-		CB481CD7A29A8C151775587ADE900E92 /* WXRocketInitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7410ADA61460EF90968A57F9C3D28 /* WXRocketInitHelper.m */; };
+		CB481CD7A29A8C151775587ADE900E92 /* WXRocketInitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CC62FD2F34DB038E21C85CB995A0D /* WXRocketInitHelper.m */; };
 		CBE9C786E760F4F6CF0787118B1A1AF7 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 108AA57D1BEE10B2450855493514A1F6 /* UITableView-KIFAdditions.m */; };
 		CBEC3B408BAF19443D45BE4F2503778B /* mtaf_compiler_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E50328EE738D25F79843B54A0A2A563 /* mtaf_compiler_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CBEFA9F49C091FDFBB9F63C5B499FCEC /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 468191ACC64BD7AEBBBC024F0B98B27F /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CD78C6BACFB809787C7FDCD97C92C87C /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3490C6C498C7D32A9FF72E5EB01291E5 /* NSException-KIFAdditions.m */; };
-		CEE400DC7777BB4BF3DD73C133C47EC2 /* WXRocketPropertyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FE357906C000B23B633779CBDE8C6791 /* WXRocketPropertyBox.m */; };
+		CEE400DC7777BB4BF3DD73C133C47EC2 /* WXRocketPropertyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A0782D76F9C8A566FF5A72E72BF5F1B0 /* WXRocketPropertyBox.m */; };
 		D03FFD6E3A9826B2157BD10F2AB78804 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218A8A6C0365C96210F0B7986EA59C7 /* NSString+KIFAdditions.m */; };
 		D17332517437C8B3E5DE5B89F84250E6 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 94B814F96964A790CF3935C24DE6F392 /* fishhook.c */; };
-		D21587458B8340108DCFF2B1710C96B3 /* WXRocketAppStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF3C2C179B460946DB906D04F3562B /* WXRocketAppStat.m */; };
+		D21587458B8340108DCFF2B1710C96B3 /* WXRocketAppStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 374080EDCFB0C41753B37320C9A99B01 /* WXRocketAppStat.m */; };
 		D271E939B2F734EE659FC05CA4CD9022 /* mtaf_log_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 996D28C211818AC4C9DF97AD932D2C41 /* mtaf_log_buffer.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D3136E0511767C373F1FDBCC734B1983 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA0FCD80B00D6FE3AED5FDA412AD0A9 /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D4729A025CFE053930A1972E032385F7 /* MTGLDebugGLFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 68518561128C367B1A9240A3D66759C4 /* MTGLDebugGLFunction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6F2B0A698BC12396D08EB67A186FE18 /* MTGLDebugQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FF02D0FAD886684A0F5808A71F05ACE /* MTGLDebugQueue.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C14FA08B5A0E06E195AA263BF59232 /* Masonry-dummy.m */; };
-		D73D5130D43213FBC09599BC1768C286 /* WXRocketStackFrameSymbolicsRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 6444BD5289C8B9AA94875345E44E5A21 /* WXRocketStackFrameSymbolicsRemote.m */; };
+		D73D5130D43213FBC09599BC1768C286 /* WXRocketStackFrameSymbolicsRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAA379D79BBA15835D0CA3088E8ADC4 /* WXRocketStackFrameSymbolicsRemote.m */; };
 		D758AD146DE284E029C0BE8C62F4A4B4 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F32887BF07AF6E6807C7209EF3C43BA /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D94F007AAE70937C372533497B52B8A0 /* mtaf_ptrbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE380A1AC68BB8C47C341071F194D4 /* mtaf_ptrbuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9CB674788FEFDB2968D81FF8B29A641 /* WXMineBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC11FB866F53EBBA95EFC6C798B4F2 /* WXMineBusiness-dummy.m */; };
 		DA8405C21D9A9727B33223349B296691 /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEF1F8155F8947E800B9A3D6770BB51 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC124F4DED0BB6AB120374B449A8058C /* MTGLDebugGLContextCInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE428F5A2998A9F67B24CA2F02F7ADE /* MTGLDebugGLContextCInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7EE00AC40274E7E32E24F325730CD9 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE62686D8194AB2A5036867FB853A355 /* WXRocketUserDefaults+CPUTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F959BEAF4C54282165499651BD5E4425 /* WXRocketUserDefaults+CPUTrace.m */; };
+		DE62686D8194AB2A5036867FB853A355 /* WXRocketUserDefaults+CPUTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72B58407F8376016A3381435772112 /* WXRocketUserDefaults+CPUTrace.m */; };
 		DF696D3DD6AF3896B83EE5E539E05B06 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E08EE5FB711A7F8D25016DEC8FE4BA /* KIFUIObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF6B78F2C89D18CD9C37DCBF18B3FB3E /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A562058910734348BCA1AF37EB43B96 /* UIView-Debugging.m */; };
 		E1EC84A30700480CC02EBA7B7E94F29C /* mtaf_appender.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CFEB766B7112DF25799BDEAF017760 /* mtaf_appender.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -222,13 +220,13 @@
 		E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8733DA9DD023D3D5AE5E9C356844000 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E5748138F2C936F2742299E9B3FD89D5 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4654E9E0DD1D8854D162800DC75339D3 /* CAAnimation+KIFAdditions.m */; };
 		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3131BD4C163242C4724736A22F02F0 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E805F4BAA5863A5EF8421A7FD96A4521 /* WXRocketAppStat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E21807FAB595568EDBF5017447DABBE /* WXRocketAppStat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E805F4BAA5863A5EF8421A7FD96A4521 /* WXRocketAppStat.h in Headers */ = {isa = PBXBuildFile; fileRef = E592AE5B7A90B50ACE10B06054C2EE27 /* WXRocketAppStat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E8636CCEB8B357EBE02EB177A9714F26 /* mtaf_autobuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 259B981BAA45009E20E32BD88FFCAED0 /* mtaf_autobuffer.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E86B697436AED13ED5CA7B3500F6D917 /* mtaf_mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E04DFE9ED0E4826F1C636923DCEF106 /* mtaf_mutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9215886CB1AA8DBFDF6CF031219D0B4 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EEEA3A9F4948E0B15A40A5836CBD47 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E94E628D260351EC602282D5732A48A9 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B34258E7427C323AE9494A32182916 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9E93CC8211173C61D7A9CBE02D604E5 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 87678F75693B1DBEC6A1D31D9D7840A5 /* KIFSystemTestActor.m */; };
-		EA73CC8F85BA24AB7CF6944DDACF8724 /* WXRocketStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9253FB6790439C77E97F6D5758920408 /* WXRocketStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA73CC8F85BA24AB7CF6944DDACF8724 /* WXRocketStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 748993EFAD332B1474C81366E55AACC3 /* WXRocketStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EAE2123241FF7DF1DE730C478D3924D7 /* MTGLDebugQueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 97A4CE4296C3F472B6698B75A46E8256 /* MTGLDebugQueue.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB0ACD8505322409BB284753E3CAB10D /* MTGLDebug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8A692D3772BC4FD4947AC41EC6CF25 /* MTGLDebug-dummy.m */; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3B75722D52F60D58993F80A3B3F4BA /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -236,12 +234,14 @@
 		EDD234701C9928BCF159DD36535BDA93 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BCAD788FFB1237BF83F2B621E2948 /* KIFTestCase.m */; };
 		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4C110BDA9C7C26576F1D95E4BDE0 /* MASConstraint.m */; };
 		EF49BE8E9106DF6C083E2BFA58D6B9F6 /* mtaf_time_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FE01793DA7EE876A01EEE993FAD2B6 /* mtaf_time_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F0B3E9E4A0CE9689C638F3DDF73DBCEB /* WXLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DC507F8D697E0133C6D31AF3E4065C /* WXLoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFA94604FAC8CA453AE6F69DC177EF64 /* WXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8921A0794E8D8728EDE288F28942410F /* WXMineViewController.m */; };
+		F0B3E9E4A0CE9689C638F3DDF73DBCEB /* WXLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAB17D45B9967FD8E380F81F851FE04 /* WXLoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4172B7C600595BF2D4995A7980F04BA0 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2231850C12EF7C2DD577FCA9BEB2011 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB6B552F62C590ADF2EB30C3E76D816 /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F469136DE2F0C917744B2169A95A73E5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E87E3B33BB2412EB8C290A888BFB1656 /* SVRadialGradientLayer.m */; };
+		F6AAD0E1C2F98F1381487760079E7934 /* WXEnergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03873A5608EB501E15F84753DEBEB2FB /* WXEnergyViewController.m */; };
 		F9D208D8F43B893CBE781BA01184342A /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F126776F974C69F51730AE1CCE9AE229 /* NSFileManager-KIFAdditions.m */; };
-		FA0E71BD5F275D979B163A56E4AAC8EF /* WXRocketCPURecordsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 057F82658DD883D6541A68BBA13A3108 /* WXRocketCPURecordsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA0E71BD5F275D979B163A56E4AAC8EF /* WXRocketCPURecordsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85798CF18B4182883AB72AE510D30CDD /* WXRocketCPURecordsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FE342BAD02EACEEAA304E7B7E03D8603 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6602FCB113753A9E197B1C6B0002ED64 /* CGGeometry-KIFAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -316,6 +316,13 @@
 			remoteGlobalIDString = AC234AE73A5D2E00C786B807F70263BA;
 			remoteInfo = MTAppenderFile;
 		};
+		AE6BE9A3CF799660FFC57DB00A05ADE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8485B9DEF270561AF93676C2B1BF7E2A;
+			remoteInfo = "WXMineBusiness-WXMineBusiness";
+		};
 		E7EC4B9C96CA19D5763ED19E8B010F7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -341,46 +348,43 @@
 
 /* Begin PBXFileReference section */
 		0061B04D30851F1116AE0E16F9B8BC28 /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
-		02D044B738C61289452052F7D645A97E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0185F4F036D084F52C5186DF30B6DB75 /* WXRocketWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketWebViewController.h; sourceTree = "<group>"; };
 		0323C9B58A509A044630F178FE53C1B5 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		035F8DC4E4FA849A50C8C98B129372AE /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		03612AC6FAF95E37DC2FC84697259A40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03873A5608EB501E15F84753DEBEB2FB /* WXEnergyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXEnergyViewController.m; path = WXMineBusiness/Classes/WXEnergyViewController.m; sourceTree = "<group>"; };
 		048BCAD788FFB1237BF83F2B621E2948 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
+		04EABD8B0D9E5DCF10E34FD6C3373D1B /* WXEnergyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXEnergyViewController.h; path = WXMineBusiness/Classes/WXEnergyViewController.h; sourceTree = "<group>"; };
 		0540455CF3F5F1C3EC69379522A036AC /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
-		057F82658DD883D6541A68BBA13A3108 /* WXRocketCPURecordsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPURecordsViewController.h; sourceTree = "<group>"; };
 		0668A4B0F9AA85290FB24B4FBCE5D718 /* Pods-RocketDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RocketDemo-resources.sh"; sourceTree = "<group>"; };
 		07E08EE5FB711A7F8D25016DEC8FE4BA /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
 		093259928E70DE07609925A25571ED1B /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
-		0956461DF787A5C0DB1DD9F9C790217D /* wxr_thread_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wxr_thread_utils.h; path = WXRocket/Utils/wxr_thread_utils.h; sourceTree = "<group>"; };
-		09D4F879D79EA8D3CE090669B3658F88 /* WXRocketCPUTraceHighLoadRecord.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTraceHighLoadRecord.mm; sourceTree = "<group>"; };
 		0A562058910734348BCA1AF37EB43B96 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
 		0B780C3A18F7AC395DC222B6CC05CE92 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
-		0BE65A587EBAEDB85E58C5FACB31923A /* WXRocketInnerLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketInnerLogger.h; path = WXRocket/Utils/WXRocketInnerLogger.h; sourceTree = "<group>"; };
-		0C94B8355B9F1F3E6B28A53A6084E19E /* WXLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLoginViewController.m; path = WXLoginBusiness/Classes/WXLoginViewController.m; sourceTree = "<group>"; };
-		0DD3E618DCCC12A1DFEB6D20A265E621 /* WXRocketStackFrameSymbolics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStackFrameSymbolics.h; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolics.h; sourceTree = "<group>"; };
-		0EA72FCC55111BF3D611137852625114 /* WXRocketInitHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketInitHelper.h; path = WXRocket/DefaultPlugins/WXRocketInitHelper.h; sourceTree = "<group>"; };
+		0C61CCEEEC5D3B30DD649423EE49035E /* WXRocketStackFrameSymbolics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStackFrameSymbolics.h; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolics.h; sourceTree = "<group>"; };
 		0ECDDCE83F8A47785E2B4027AE1FE40F /* MTAppenderFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTAppenderFile-prefix.pch"; sourceTree = "<group>"; };
-		0EDF696720FF92815730D0C19CE9A8B2 /* WXRocketCPUTraceAdaptor.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTraceAdaptor.mm; sourceTree = "<group>"; };
 		0FFA395833B3ED792A5D286F035F61A6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		108AA57D1BEE10B2450855493514A1F6 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
 		14CCC82ABF9D88E9D7EDB35F15ED191F /* Pods-RocketDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RocketDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14DDA101E85D35DD703A9EAA339A2756 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		157B70121C34BC198320F7D631F92EE5 /* WXMineBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXMineBusiness-prefix.pch"; sourceTree = "<group>"; };
 		16CD3B00181EF13F93889BD18C138175 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		17186CD2E7EB565EBC65B6A66870D9E7 /* WXLoginBusiness.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXLoginBusiness.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1751B64F53790162E0A850DFB3022773 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		1778040491DB148B445E654A2515E1A6 /* WXRocketClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketClient.m; path = WXRocket/Core/WXRocketClient.m; sourceTree = "<group>"; };
+		17835DB1D37DD9157AAAA3AAE9CA3D8D /* WXRocketLFUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketLFUCache.hpp; path = WXRocket/Utils/WXRocketLFUCache.hpp; sourceTree = "<group>"; };
 		182887B1A7EA8FCA199CCA69AA0CB7D6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		1863DF366260961580E6B30D1FD6B78A /* WXRocketSignPosts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketSignPosts.h; path = WXRocket/Utils/WXRocketSignPosts.h; sourceTree = "<group>"; };
+		187CC62FD2F34DB038E21C85CB995A0D /* WXRocketInitHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketInitHelper.m; path = WXRocket/DefaultPlugins/WXRocketInitHelper.m; sourceTree = "<group>"; };
 		18A1000248199A99429BDFFC7FD8A4EA /* MTGLDebugCore_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugCore_iOS.h; path = MTGLDebug/Core/MTGLDebugCore_iOS.h; sourceTree = "<group>"; };
 		196062D1DA5429A0E0CD2E2C3FFD43EF /* MTAppenderFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAppenderFile.h; path = loglib/MTAppenderFile.h; sourceTree = "<group>"; };
+		1A7F4971AF90C44443E71F611852A4CE /* WXLoginBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXLoginBusiness-dummy.m"; sourceTree = "<group>"; };
 		1A97177C63C2D821D3FDDBD639D88E79 /* MTGLDebugImpl.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugImpl.mm; path = MTGLDebug/iOS/MTGLDebugImpl.mm; sourceTree = "<group>"; };
 		1ADB91F04D7F82445E506774DC45A00F /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
 		1ADC26F8BBA0CEFE51587B1F6A32F949 /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
 		1B3B75722D52F60D58993F80A3B3F4BA /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		1BDBB09A40568CA493EDFEA83A9D6DB4 /* WXRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXRocket-prefix.pch"; sourceTree = "<group>"; };
 		1C6C256500EE5BD7E8E7DF7BC77569D5 /* mtaf_mmap_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_mmap_file.cpp; path = loglib/mtaf_mmap_file.cpp; sourceTree = "<group>"; };
 		1CF0891443061192431F64600ED7B82E /* MTGLDebugObject_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugObject_Internal.h; path = MTGLDebug/iOS/MTGLDebugObject_Internal.h; sourceTree = "<group>"; };
-		1E55B0AB178BCDFCF1B8618725FEEDB0 /* WXRocketUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketUserDefaults.h; path = WXRocket/Core/WXRocketUserDefaults.h; sourceTree = "<group>"; };
+		1DBC11FB866F53EBBA95EFC6C798B4F2 /* WXMineBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXMineBusiness-dummy.m"; sourceTree = "<group>"; };
 		1F32887BF07AF6E6807C7209EF3C43BA /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
+		1F49F44BC9056E87596150DB1C60D29A /* WXRocketLFUCache.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketLFUCache.cpp; path = WXRocket/Utils/WXRocketLFUCache.cpp; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		204C3965E4081793B38AC11171486DDF /* Pods-RocketDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RocketDemo-dummy.m"; sourceTree = "<group>"; };
 		2218A8A6C0365C96210F0B7986EA59C7 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
@@ -388,150 +392,151 @@
 		259B981BAA45009E20E32BD88FFCAED0 /* mtaf_autobuffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_autobuffer.cc; path = comm/mtaf_autobuffer.cc; sourceTree = "<group>"; };
 		25DAD5D238873BB66380AC558C3B97D0 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
 		25FE01793DA7EE876A01EEE993FAD2B6 /* mtaf_time_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_time_utils.h; path = comm/mtaf_time_utils.h; sourceTree = "<group>"; };
-		27199071745D35465B10AE8C72188569 /* WXRocketCPURecordsViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPURecordsViewController.mm; sourceTree = "<group>"; };
 		279274395C3246D33557E7CA49CBF02D /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		27FAABC674E34F9133413850AC31BC32 /* WXRocketStackFrameSymbolicsRemote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStackFrameSymbolicsRemote.h; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolicsRemote.h; sourceTree = "<group>"; };
+		28ACE8BBB229D576B81267C1F1A15B9C /* WXRocketDyldImagesStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDyldImagesStorage.h; path = WXRocket/Core/WXRocketDyldImagesStorage.h; sourceTree = "<group>"; };
 		2A47350E19EEB1A51B2BDD16809055FA /* mtaf_condition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_condition.h; path = comm/mtaf_condition.h; sourceTree = "<group>"; };
 		2AB8DB9F6D122CD61F9EF4B78E87E3C3 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
 		2BE9C80313F5D2E29336A470D7247870 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
+		2DA5FB663BF8D0FF757CB1F583D81F9B /* WXRocketHooking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketHooking.m; path = WXRocket/Utils/WXRocketHooking.m; sourceTree = "<group>"; };
+		2E156AD8C9C3F95AF81BDB88D74AF4BD /* WXRocketCPURecordsViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPURecordsViewController.mm; sourceTree = "<group>"; };
 		2EED2D75617F00E232BB985A75FB7464 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
 		2FF02D0FAD886684A0F5808A71F05ACE /* MTGLDebugQueue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugQueue.cpp; path = MTGLDebug/Core/MTGLDebugQueue.cpp; sourceTree = "<group>"; };
-		303817DF797261D875E5FDC95CA5F1BC /* WXRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXRocket.xcconfig; sourceTree = "<group>"; };
-		3099B6887CCF662ED28887C3E7857388 /* WXLoginDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLoginDetailViewController.m; path = WXLoginBusiness/Classes/WXLoginDetailViewController.m; sourceTree = "<group>"; };
-		30B7DAFAFE5321504631DA48AE87C11A /* WXMineViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WXMineViewController.xib; path = WXMineBusiness/Assets/WXMineViewController.xib; sourceTree = "<group>"; };
+		3088A0F17428E8BB6FA0ACE52E96A738 /* WXRocketCPUTracePublicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTracePublicHeader.h; sourceTree = "<group>"; };
 		3490C6C498C7D32A9FF72E5EB01291E5 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
-		34DF3C2C179B460946DB906D04F3562B /* WXRocketAppStat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketAppStat.m; path = WXRocket/Core/WXRocketAppStat.m; sourceTree = "<group>"; };
 		353484E24F4915E52F19CAB522B690ED /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		3573234ED1D8AA506EF6654AC4D3920A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		371DBD6EF987BD17AD661DBC373937F2 /* wxr_thread_utils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = wxr_thread_utils.mm; path = WXRocket/Utils/wxr_thread_utils.mm; sourceTree = "<group>"; };
-		383C73BD58A431807A5A63E2595C2E27 /* WXRocketLFUCache.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketLFUCache.cpp; path = WXRocket/Utils/WXRocketLFUCache.cpp; sourceTree = "<group>"; };
+		374080EDCFB0C41753B37320C9A99B01 /* WXRocketAppStat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketAppStat.m; path = WXRocket/Core/WXRocketAppStat.m; sourceTree = "<group>"; };
+		374983F2FE44629B29F97511D2D37B5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		389068D9ABF002A0CE1D268FB253CBC2 /* mtaf_formatter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_formatter.cpp; path = loglib/mtaf_formatter.cpp; sourceTree = "<group>"; };
-		38C66FFA7284C1D7F072437D69FD1E6C /* WXMineBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXMineBusiness-dummy.m"; sourceTree = "<group>"; };
 		3905BF2448469BAD41C61E6EA98EF4FC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		3928D4795CFA21E85954856AB5FFFAC3 /* fishhook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.xcconfig; sourceTree = "<group>"; };
-		394AEA78C13155B51C9CD2F4514C5E19 /* WXR_RSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXR_RSSwizzle.h; path = WXRocket/Utils/WXR_RSSwizzle.h; sourceTree = "<group>"; };
+		396EC8DB93E4359C1D3857C54C3A87B5 /* WXR_RSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXR_RSSwizzle.m; path = WXRocket/Utils/WXR_RSSwizzle.m; sourceTree = "<group>"; };
 		3B6BFCA02BA6713FDA10A3EABA8D7237 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		3B7A4FF05CE8214AC082FA0987EA5D2C /* WXMineBusiness.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXMineBusiness.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C72B58407F8376016A3381435772112 /* WXRocketUserDefaults+CPUTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXRocketUserDefaults+CPUTrace.m"; sourceTree = "<group>"; };
 		3F52974A5B7B56A3E6F0DC6E8143324A /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
 		40143AC1D4F0C9CF82E87FE73685E857 /* __mtaf_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = __mtaf_assert.h; path = comm/__mtaf_assert.h; sourceTree = "<group>"; };
-		40648AEC5EEC10818EC3027F32BCC76F /* WXRocketInnerLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketInnerLogger.m; path = WXRocket/Utils/WXRocketInnerLogger.m; sourceTree = "<group>"; };
 		40729265B545335E98F5865410C53243 /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
 		40CB6D503F12385DEE019CB1739CED2C /* MTGLDebugSemaphore.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugSemaphore.hpp; path = MTGLDebug/Core/MTGLDebugSemaphore.hpp; sourceTree = "<group>"; };
 		4172B7C600595BF2D4995A7980F04BA0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		41B66E8595868E3745DA05B819281CE9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		43B25E27B1E14EA49C62C2F7D71ECE16 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
+		43CDB450C1EE9D79A3744B7417545D9A /* wxr_stack_backtrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wxr_stack_backtrace.h; path = WXRocket/StackBacktrace/wxr_stack_backtrace.h; sourceTree = "<group>"; };
+		43F97DBC9083DAE1EB2782D48055FCFA /* WXRocketCPUTrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTrace.mm; sourceTree = "<group>"; };
+		4480D8089552A626499B3464515AF595 /* WXRocketUserDefaults+CPUTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXRocketUserDefaults+CPUTrace.h"; sourceTree = "<group>"; };
 		454C6A559AD2EC286F5A442271D24A11 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
 		4654E9E0DD1D8854D162800DC75339D3 /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
 		468191ACC64BD7AEBBBC024F0B98B27F /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
 		46DF3CC13A659BDDEE588193E0865BB9 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		480E2533786131EC570D84A15B7AE282 /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
 		482E65CE45706AF77A920B6660E13563 /* MTGLDebugCore.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCore.hpp; path = MTGLDebug/Core/MTGLDebugCore.hpp; sourceTree = "<group>"; };
-		48473F67F5891DB79C849961639437DA /* WXRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXRocket-dummy.m"; sourceTree = "<group>"; };
 		48FFB704C00B92997477564275FA11CA /* MTGLDebugObject+QuickLook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTGLDebugObject+QuickLook.m"; path = "MTGLDebug/iOS/MTGLDebugObject+QuickLook.m"; sourceTree = "<group>"; };
-		4BF97EB0FBF03D5D1912FA7F8DDB41C0 /* WXRocketCPUTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTrace.h; sourceTree = "<group>"; };
 		4C6AECD5E947472FA6503A31E6CFF7DA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		4D4EEC1FB33B5CC10D1FCBB6B347D7B7 /* WXRocketWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRocketWebViewController.m; sourceTree = "<group>"; };
 		4E50328EE738D25F79843B54A0A2A563 /* mtaf_compiler_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_compiler_util.h; path = comm/mtaf_compiler_util.h; sourceTree = "<group>"; };
 		500DFD758703582DC52F56AC6D73D32E /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
+		5018F61235FC6147A75546090E6EF88D /* WXRocketDefaultPlugins.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketDefaultPlugins.m; path = WXRocket/DefaultPlugins/WXRocketDefaultPlugins.m; sourceTree = "<group>"; };
+		517E38599AF786E32E89FA727B0FA8A1 /* WXRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXRocket-prefix.pch"; sourceTree = "<group>"; };
 		51837626B4600A6E83306D728A1B094A /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
 		530F499AE7D930932FDE8B4C07923DF3 /* MTGLDebugCore.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCore.cpp; path = MTGLDebug/Core/MTGLDebugCore.cpp; sourceTree = "<group>"; };
 		53C3E59DB835DFFF184AB4773DC71933 /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
-		5696817216F699C5D831222E6457C876 /* WXRocketStackFrameSymbolics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketStackFrameSymbolics.mm; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolics.mm; sourceTree = "<group>"; };
+		53F6C06A3A78C19B7DAC3E18DCEF253F /* WXRocketPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketPlugin.h; path = WXRocket/Core/WXRocketPlugin.h; sourceTree = "<group>"; };
+		55AC89CDD7DFD987C492258A7E26ADC5 /* WXRocketSignPosts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketSignPosts.h; path = WXRocket/Utils/WXRocketSignPosts.h; sourceTree = "<group>"; };
+		57355ED556CB33F33B4BAFEDA4D52615 /* WXRocketHooking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketHooking.h; path = WXRocket/Utils/WXRocketHooking.h; sourceTree = "<group>"; };
+		57CCBA893DB5DBF73B5138ABD2618F62 /* WXRocketClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketClient.h; path = WXRocket/Core/WXRocketClient.h; sourceTree = "<group>"; };
 		58172E8770C143EAA3ECE405FE3C0134 /* mtaf_spinlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_spinlock.h; path = comm/mtaf_spinlock.h; sourceTree = "<group>"; };
 		58FF4AD9FD225C0B7DB5E295F241B0C7 /* libWXLoginBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWXLoginBusiness.a; path = libWXLoginBusiness.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5907F4EB31EFCC393DF8C8B3C03EA303 /* WXRocketUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketUtility.h; path = WXRocket/Utils/WXRocketUtility.h; sourceTree = "<group>"; };
+		59A2B0FBF4A1489B0D04CD1C26636D5D /* WXRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXRocket-dummy.m"; sourceTree = "<group>"; };
 		5B3332B9CD422ABA999CD1255CF0DD9D /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		5C20196346E4EC14B8CCD4604C2DE5FB /* MTGLDebugGLFunction.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugGLFunction.c; path = MTGLDebug/Core/MTGLDebugGLFunction.c; sourceTree = "<group>"; };
 		5CA52AE2E094F32B918B6CEF7B07444F /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
 		5CE848DA8E5D48B4CB75493CCF490B23 /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
 		5CFBCC9FE8E244BCC5232A5E1A99C9D0 /* MTAppenderFile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTAppenderFile.xcconfig; sourceTree = "<group>"; };
-		5DB855A21C34E66ADF8E2DC71670A6BF /* WXRocketWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketWebViewController.h; sourceTree = "<group>"; };
 		5EC39073933423EC3119D5D38A968E6D /* MTGLDebugCoreBridge.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCoreBridge.hpp; path = MTGLDebug/Core/MTGLDebugCoreBridge.hpp; sourceTree = "<group>"; };
-		620BC9D2F33D096337FBE6A35FDB221E /* wxr_stack_backtrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wxr_stack_backtrace.h; path = WXRocket/StackBacktrace/wxr_stack_backtrace.h; sourceTree = "<group>"; };
+		607EDB462CB3C11DC228EA87A9661709 /* ResourceBundle-WXMineBusiness-WXMineBusiness-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WXMineBusiness-WXMineBusiness-Info.plist"; sourceTree = "<group>"; };
+		60A6C5DE66D29ACC34EFD7B0E5211A60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		60FBB5D13538A39FAA863915571E11AC /* WXRocketDefaultPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDefaultPlugins.h; path = WXRocket/DefaultPlugins/WXRocketDefaultPlugins.h; sourceTree = "<group>"; };
+		61FD666230B844DA4EA11EDA5B75237A /* wxr_stack_backtrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = wxr_stack_backtrace.mm; path = WXRocket/StackBacktrace/wxr_stack_backtrace.mm; sourceTree = "<group>"; };
+		6330057B40F6146698D77F12221D27CA /* WXLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLoginViewController.m; path = WXLoginBusiness/Classes/WXLoginViewController.m; sourceTree = "<group>"; };
 		634B6CF80AB354E98601A411975722BD /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
-		6444BD5289C8B9AA94875345E44E5A21 /* WXRocketStackFrameSymbolicsRemote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketStackFrameSymbolicsRemote.m; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolicsRemote.m; sourceTree = "<group>"; };
-		64C5037A4F9F6FC7F8810E42FDCF0475 /* WXRocketDefaultPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDefaultPlugins.h; path = WXRocket/DefaultPlugins/WXRocketDefaultPlugins.h; sourceTree = "<group>"; };
 		652E0BF6178C70BB411320B2D3A2029E /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
-		65B69B01085C1C72C400EC1DA1D09A9C /* WXRocketUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketUtility.h; path = WXRocket/Utils/WXRocketUtility.h; sourceTree = "<group>"; };
 		6602FCB113753A9E197B1C6B0002ED64 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		668BF8B0B8AFD33FC15BB714E9DBD079 /* WXRocketPropertyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketPropertyBox.h; path = WXRocket/Utils/WXRocketPropertyBox.h; sourceTree = "<group>"; };
 		6828EF09ACB1D30EC34E1BC61720CA28 /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
 		68518561128C367B1A9240A3D66759C4 /* MTGLDebugGLFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugGLFunction.h; path = MTGLDebug/Core/MTGLDebugGLFunction.h; sourceTree = "<group>"; };
+		68B5B36B25621DB5790D2DDB3E576214 /* WXMineBusiness.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXMineBusiness.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68BACB92FE5E07BBBF23A1DD93BD494D /* WXLoginDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLoginDetailViewController.m; path = WXLoginBusiness/Classes/WXLoginDetailViewController.m; sourceTree = "<group>"; };
 		68E0965812FE9EAC9CCD083EF81E7CC0 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
 		69158C8A996E0D7EE53E35E32C62DDA8 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		6921FC0E6D786E8E26E5CB7B27B2B65D /* WXMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXMineViewController.m; path = WXMineBusiness/Classes/WXMineViewController.m; sourceTree = "<group>"; };
 		69229419594745E0902385C59EBB42A8 /* MTGLDebugObject+QuickLook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTGLDebugObject+QuickLook.h"; path = "MTGLDebug/iOS/MTGLDebugObject+QuickLook.h"; sourceTree = "<group>"; };
 		6B94B62071886C57A44FAB3E35F55761 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		6E21807FAB595568EDBF5017447DABBE /* WXRocketAppStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketAppStat.h; path = WXRocket/Core/WXRocketAppStat.h; sourceTree = "<group>"; };
+		6BCDAF64F3292112505A7EEF639FD26E /* WXRocketStackFrameSymbolics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketStackFrameSymbolics.mm; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolics.mm; sourceTree = "<group>"; };
+		6C86A1163EF1CC220A29CA4F14F201CE /* WXRocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXRocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D842FB99E6C5BF08CEABB1ADBFF6CCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6FF40CAFC330E6706498C3C67C9D679C /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
-		6FFEF53A598C7DC93CA6E3E608368957 /* WXRocketDyldImagesStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketDyldImagesStorage.m; path = WXRocket/Core/WXRocketDyldImagesStorage.m; sourceTree = "<group>"; };
-		71186CC95F35911B15CB438FBCF173FB /* WXEnergy.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WXEnergy.storyboard; path = WXMineBusiness/Classes/WXEnergy.storyboard; sourceTree = "<group>"; };
+		703C69420050B7FA2645B69B831EC3C6 /* WXMineViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WXMineViewController.xib; path = WXMineBusiness/Assets/WXMineViewController.xib; sourceTree = "<group>"; };
 		715DD44810107C0ADEA7BA5DC378FD87 /* MTGLDebugCoreObject.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCoreObject.cpp; path = MTGLDebug/Core/MTGLDebugCoreObject.cpp; sourceTree = "<group>"; };
-		718DF4AF1503B02207F697862D49E6F9 /* WXRocketUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketUserDefaults.m; path = WXRocket/Core/WXRocketUserDefaults.m; sourceTree = "<group>"; };
-		72269D0563A738D25B9633DD444FB9D1 /* WXRocketPropertyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketPropertyBox.h; path = WXRocket/Utils/WXRocketPropertyBox.h; sourceTree = "<group>"; };
-		727D6AC362B4F1525C5765CF20B9FF45 /* WXRocketPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketPlugin.h; path = WXRocket/Core/WXRocketPlugin.h; sourceTree = "<group>"; };
+		7206F5CF65D0266F10B3D39E3D0E12B3 /* WXRocketLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketLogMacros.h; path = WXRocket/Utils/WXRocketLogMacros.h; sourceTree = "<group>"; };
+		731B6A66CDAEA905AB29B53184671ADD /* WXLoginBusiness.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXLoginBusiness.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73427622F90C1076C3FD06958C2E8F1A /* MTGLDebugImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugImpl.h; path = MTGLDebug/iOS/MTGLDebugImpl.h; sourceTree = "<group>"; };
 		73A45BA29839F08CE30BEE0115ED16DC /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		748993EFAD332B1474C81366E55AACC3 /* WXRocketStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStorage.h; path = WXRocket/Core/WXRocketStorage.h; sourceTree = "<group>"; };
 		74B450F9024021F5EC11D0586C7167C0 /* MTGLDebugImpl_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugImpl_Internal.h; path = MTGLDebug/iOS/MTGLDebugImpl_Internal.h; sourceTree = "<group>"; };
+		774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXMineBusiness.xcconfig; sourceTree = "<group>"; };
 		77560F84DE970ED0460B87C803968116 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		77B06CEA69B391049DE11BE3E4467115 /* WXRocketCPUTraceAdaptor.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTraceAdaptor.mm; sourceTree = "<group>"; };
 		77C5E02486B3C346EA9732BB3F9312A8 /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
-		78B88497F8220944EE34BCB092A4C2D3 /* MTHawkeyeEmptyHeaderForCPP.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeEmptyHeaderForCPP.hpp; path = WXRocket/Utils/MTHawkeyeEmptyHeaderForCPP.hpp; sourceTree = "<group>"; };
 		78BB3B6CEE91DE2C8D10A7CEE05F2915 /* MTGLDebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTGLDebug.xcconfig; sourceTree = "<group>"; };
-		7A1B8BF669E50A2F231A95F9BA186A97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79F4AA1EBB206ED2098291E1FAC3EF7D /* WXRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXRocket.xcconfig; sourceTree = "<group>"; };
 		7A3F307E47B034B9CF5F6EDCFE4A802A /* MTGLDebugCoreObject.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCoreObject.hpp; path = MTGLDebug/Core/MTGLDebugCoreObject.hpp; sourceTree = "<group>"; };
 		7A65B2BC3E3C70270E889DC025F13F74 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
 		7CF06F21E7245EECE9B37519AFA4324A /* mtaf_ptrbuffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_ptrbuffer.cc; path = comm/mtaf_ptrbuffer.cc; sourceTree = "<group>"; };
+		7D3F9F85EBF4EC35BBEADDE044697F95 /* WXLoginBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXLoginBusiness.xcconfig; sourceTree = "<group>"; };
 		7E04DFE9ED0E4826F1C636923DCEF106 /* mtaf_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_mutex.h; path = comm/mtaf_mutex.h; sourceTree = "<group>"; };
 		7F493E97C14E09C87695D242D2449F90 /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
 		7F7FD6875C9E0B188D80C36F86E796F0 /* mtaf_atomic_oper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_atomic_oper.h; path = comm/mtaf_atomic_oper.h; sourceTree = "<group>"; };
 		80C14FA08B5A0E06E195AA263BF59232 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		816E0C962C830A38ED82B1E58550D810 /* WXRocketUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketUtility.m; path = WXRocket/Utils/WXRocketUtility.m; sourceTree = "<group>"; };
 		8222941C5CF9C4B3AA696F23F4E948F7 /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
-		82507325534A8343004D9D9C0E8EFA53 /* WXRocketDyldImagesUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDyldImagesUtils.h; path = WXRocket/Utils/WXRocketDyldImagesUtils.h; sourceTree = "<group>"; };
-		82653B3C3EE3179E40487C5BBD6A4FE6 /* WXRocketCPUTraceAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTraceAdaptor.h; sourceTree = "<group>"; };
 		82BBC8972619F80DFDFD6D25127880F8 /* mtaf_appender.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_appender.cpp; path = loglib/mtaf_appender.cpp; sourceTree = "<group>"; };
 		8326BA08E1C74C64BE6A72D4A4FC22BA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		83CFCA318F63B7B217CA1975270A063C /* WXRocketCPUTraceHighLoadRecord.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTraceHighLoadRecord.mm; sourceTree = "<group>"; };
 		83EEEA3A9F4948E0B15A40A5836CBD47 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
 		844137E9B829CC2D88C1CF754A76D935 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
 		847F5077384985A8B9B67B51FB0458F3 /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
 		849E701B7DB2B2BF51F2F489FD5EF6E1 /* mtaf_log_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_log_buffer.h; path = loglib/mtaf_log_buffer.h; sourceTree = "<group>"; };
 		850D9C4E72D17BB4CDEEB13826713BAA /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
-		8543084717636DC6C2C9222900D4FD22 /* WXRocketCPUTraceHighLoadRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTraceHighLoadRecord.h; sourceTree = "<group>"; };
+		85798CF18B4182883AB72AE510D30CDD /* WXRocketCPURecordsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPURecordsViewController.h; sourceTree = "<group>"; };
 		86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTAppenderFile.a; path = libMTAppenderFile.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87678F75693B1DBEC6A1D31D9D7840A5 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
 		882451B91EC38749559BF9AF059799BB /* MTGLDebugObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugObject.h; path = MTGLDebug/iOS/MTGLDebugObject.h; sourceTree = "<group>"; };
 		88787B904BD61672AC80C8088ACB076F /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		88A4D65F1DF8DC3030F76652B3BA64A0 /* WXRocketDyldImagesUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketDyldImagesUtils.mm; path = WXRocket/Utils/WXRocketDyldImagesUtils.mm; sourceTree = "<group>"; };
 		88D7A0527CB50A8A8716F1833CE41FEE /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
 		890B4ED49457960F4EC774BAC65D4AA5 /* MTGLDebugQueue_iOS_Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugQueue_iOS_Bridge.h; path = MTGLDebug/Core/MTGLDebugQueue_iOS_Bridge.h; sourceTree = "<group>"; };
-		8C048D6BC7E0BA97365C5DE6AAA9A9FF /* WXRocketCPUTrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WXRocketCPUTrace.mm; sourceTree = "<group>"; };
-		8D6162F28803D3C8E3B029B43B5EACC5 /* WXMineBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXMineBusiness.xcconfig; sourceTree = "<group>"; };
-		8D7BFB171DE1049B683F68319B86EACB /* WXRocketDyldImagesStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDyldImagesStorage.h; path = WXRocket/Core/WXRocketDyldImagesStorage.h; sourceTree = "<group>"; };
+		8921A0794E8D8728EDE288F28942410F /* WXMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXMineViewController.m; path = WXMineBusiness/Classes/WXMineViewController.m; sourceTree = "<group>"; };
 		8DEF1F8155F8947E800B9A3D6770BB51 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
 		8F2ECB7C0D97D4EDFF6E16E6751B6DA5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		8F3612E93FFD98AAAB8271AC3A1D4271 /* MTGLDebugSemaphore.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugSemaphore.cpp; path = MTGLDebug/Core/MTGLDebugSemaphore.cpp; sourceTree = "<group>"; };
 		8F3D4C69B8F2E1A5E309F3C04708C3EB /* mtaf_autobuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_autobuffer.h; path = comm/mtaf_autobuffer.h; sourceTree = "<group>"; };
 		9132C1FBA7EBD4AC6B0C2FAAF405FB1D /* MTGLDebugCore_iOS.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCore_iOS.mm; path = MTGLDebug/Core/MTGLDebugCore_iOS.mm; sourceTree = "<group>"; };
-		91B90E37BA7E02BEA2A0E128212A9D76 /* WXRocketWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketWeakProxy.h; path = WXRocket/Utils/WXRocketWeakProxy.h; sourceTree = "<group>"; };
-		9253FB6790439C77E97F6D5758920408 /* WXRocketStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStorage.h; path = WXRocket/Core/WXRocketStorage.h; sourceTree = "<group>"; };
-		93E9109FDD0FE32F152124B91B90EE4D /* WXLoginBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXLoginBusiness-dummy.m"; sourceTree = "<group>"; };
-		9495C2D9EEFD24A41E752F8ABE376AA4 /* WXEnergyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXEnergyViewController.h; path = WXMineBusiness/Classes/WXEnergyViewController.h; sourceTree = "<group>"; };
 		94B814F96964A790CF3935C24DE6F392 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
 		96EA0982D4CC838F764A396B7D3B9E80 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		972A874184D44D6E1ACEDE6DEE5F3A2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		976E5B19BD47803D656E658959849DCE /* libPods-RocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RocketDemo.a"; path = "libPods-RocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A4CE4296C3F472B6698B75A46E8256 /* MTGLDebugQueue.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugQueue.hpp; path = MTGLDebug/Core/MTGLDebugQueue.hpp; sourceTree = "<group>"; };
 		97A8B5CD4B0ADF4547B36DCA3107E981 /* MTGLDebugGLContextCInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTGLDebugGLContextCInterface.m; path = MTGLDebug/Core/MTGLDebugGLContextCInterface.m; sourceTree = "<group>"; };
 		996D28C211818AC4C9DF97AD932D2C41 /* mtaf_log_buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_log_buffer.cpp; path = loglib/mtaf_log_buffer.cpp; sourceTree = "<group>"; };
+		9AAB17D45B9967FD8E380F81F851FE04 /* WXLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLoginViewController.h; path = WXLoginBusiness/Classes/WXLoginViewController.h; sourceTree = "<group>"; };
 		9B7EE00AC40274E7E32E24F325730CD9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		9BD98FDE1ADBB5689F4E5072983CBB9E /* WXRocketClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketClient.m; path = WXRocket/Core/WXRocketClient.m; sourceTree = "<group>"; };
+		9BEEDCCF9015907888C1FC70DCEFA5BE /* WXRocketInnerLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketInnerLogger.m; path = WXRocket/Utils/WXRocketInnerLogger.m; sourceTree = "<group>"; };
 		9C7659C9CC1A305A62890D04DD8C31A6 /* __mtaf_assert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = __mtaf_assert.c; path = comm/__mtaf_assert.c; sourceTree = "<group>"; };
 		9CA216629A7529B075F3AC826470B254 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libfishhook.a; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6E0C699A6572F861B9BED043F5EBE0 /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
 		9F1191DE3C5A9AEE2B5EA92D0B939CFC /* Pods-RocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RocketDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A20CFAB34FC01F66EF9390D31655196D /* WXRocketStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketStorage.m; path = WXRocket/Core/WXRocketStorage.m; sourceTree = "<group>"; };
+		A0782D76F9C8A566FF5A72E72BF5F1B0 /* WXRocketPropertyBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketPropertyBox.m; path = WXRocket/Utils/WXRocketPropertyBox.m; sourceTree = "<group>"; };
+		A2079672C41CF16183DFA0195D0B9087 /* WXLoginDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLoginDetailViewController.h; path = WXLoginBusiness/Classes/WXLoginDetailViewController.h; sourceTree = "<group>"; };
 		A2F5635F40F48E7858F707BF712C396A /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		A31B8A4AA9505B7807FA674EE6C1FC94 /* WXLoginDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLoginDetailViewController.h; path = WXLoginBusiness/Classes/WXLoginDetailViewController.h; sourceTree = "<group>"; };
 		A495F908B6D817C766947E9A14C8B1EE /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
-		A575C5ECB8D2D4A476B9A47FB5668717 /* wxr_stack_backtrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = wxr_stack_backtrace.mm; path = WXRocket/StackBacktrace/wxr_stack_backtrace.mm; sourceTree = "<group>"; };
-		A5A539910BE3EBE2E1CE5F6D201B2284 /* WXRocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXRocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A658955378CFC3F3C9039DC724FCF915 /* libWXMineBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWXMineBusiness.a; path = libWXMineBusiness.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C3167F2F12C90E9699CAC692672594 /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
 		A8733DA9DD023D3D5AE5E9C356844000 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
@@ -543,88 +548,92 @@
 		ABF65919CCE720EB5139FA6F11E2B294 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKIF.a; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6E5FE1C6F1393A98A3966751F56352 /* MTGLDebug_Platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebug_Platform.h; path = MTGLDebug/Core/MTGLDebug_Platform.h; sourceTree = "<group>"; };
 		AE9271E5E8B81FAA9346211647A2A818 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		AEAA379D79BBA15835D0CA3088E8ADC4 /* WXRocketStackFrameSymbolicsRemote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketStackFrameSymbolicsRemote.m; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolicsRemote.m; sourceTree = "<group>"; };
 		AED62EEB11DD4F4C39C110C8C9566AE4 /* Pods-RocketDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RocketDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFB7410ADA61460EF90968A57F9C3D28 /* WXRocketInitHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketInitHelper.m; path = WXRocket/DefaultPlugins/WXRocketInitHelper.m; sourceTree = "<group>"; };
+		B2D6787AF3BA0324984D71B7F51D259E /* WXRocketUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketUserDefaults.m; path = WXRocket/Core/WXRocketUserDefaults.m; sourceTree = "<group>"; };
 		B419DAEAF328804916A13CE0F5519176 /* MTGLDebug_GL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebug_GL.h; path = MTGLDebug/Core/MTGLDebug_GL.h; sourceTree = "<group>"; };
 		B46976DE34BCE76F4DA8A1EB907ED66E /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
 		B47CDC957F33EE0AB23794E6F32A9675 /* mtaf_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_base.h; path = loglib/mtaf_base.h; sourceTree = "<group>"; };
+		B4AD105A54B5B961F31EE7657C4AF2BE /* WXLoginBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXLoginBusiness-prefix.pch"; sourceTree = "<group>"; };
+		B5B1B767E4330C77556421E70DFEC65C /* WXRocketUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketUtility.m; path = WXRocket/Utils/WXRocketUtility.m; sourceTree = "<group>"; };
 		B61A3BE630D24FA886C70C4748A82993 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
 		B6A6BBD09E4B98371C42C041FAB0241B /* MTGLDebug_Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebug_Macro.h; path = MTGLDebug/Core/MTGLDebug_Macro.h; sourceTree = "<group>"; };
+		B6BB31DEA63E352C4BDE3F97493F8F17 /* WXRocketWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXRocketWebViewController.m; sourceTree = "<group>"; };
 		B933041D4E1597D2B58DA065965BF153 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		BA59F26186EC86ECE7DDE34738D40E2A /* WXRocketHooking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketHooking.m; path = WXRocket/Utils/WXRocketHooking.m; sourceTree = "<group>"; };
 		BA9B9497F114C55F9ACA16A99A0621F3 /* Pods-RocketDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RocketDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAAD4749C84D740A991FF53F7BAD5124 /* MTAppenderFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTAppenderFile.mm; path = loglib/MTAppenderFile.mm; sourceTree = "<group>"; };
-		BB82EA886636A6697DBDA8EE9A6F3BC9 /* WXRocketStackFrameSymbolicsRemote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketStackFrameSymbolicsRemote.h; path = WXRocket/StackBacktrace/WXRocketStackFrameSymbolicsRemote.h; sourceTree = "<group>"; };
-		BC6D943E1D2DBD4DCA93CE41088F9CC7 /* WXRocketWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketWeakProxy.m; path = WXRocket/Utils/WXRocketWeakProxy.m; sourceTree = "<group>"; };
-		BCE945F3ADF9E43004471CEA27516530 /* WXEnergyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXEnergyViewController.m; path = WXMineBusiness/Classes/WXEnergyViewController.m; sourceTree = "<group>"; };
+		BD852C79C56A446AA46444CF4F48337F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD8A692D3772BC4FD4947AC41EC6CF25 /* MTGLDebug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTGLDebug-dummy.m"; sourceTree = "<group>"; };
+		BDFC997494A8E94AE553359A27630AC7 /* WXRocketUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketUserDefaults.h; path = WXRocket/Core/WXRocketUserDefaults.h; sourceTree = "<group>"; };
 		BE6F12FB208D59FC768C2346E35E42F7 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BEE00B30E406A45F819A4B0FDE569EAA /* WXRocketStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketStorage.m; path = WXRocket/Core/WXRocketStorage.m; sourceTree = "<group>"; };
 		C056E856A574A0934D625B2AABF6ECF3 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		C0994DE26AADBC36040844594C09F1E5 /* MTGLDebugCoreBridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugCoreBridge.cpp; path = MTGLDebug/Core/MTGLDebugCoreBridge.cpp; sourceTree = "<group>"; };
 		C0BB4D4CCAF25FAA15A3B89062ABC60F /* mtaf_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_lock.h; path = comm/mtaf_lock.h; sourceTree = "<group>"; };
+		C382C441A9DC750DC74D0839C4761264 /* WXRocketDyldImagesUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketDyldImagesUtils.h; path = WXRocket/Utils/WXRocketDyldImagesUtils.h; sourceTree = "<group>"; };
+		C4403DD0D04438E5355D67696CF97F24 /* WXRocketInnerLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketInnerLogger.h; path = WXRocket/Utils/WXRocketInnerLogger.h; sourceTree = "<group>"; };
 		C45A3E9DB629D126190B000A10E178DF /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
 		C4E2DE0A98F0B07536ADE7156003FF3A /* Pods-RocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C66E60D9FB00200EDBD2A731C5D1FEC2 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
 		C8ACB61AB68CB6C1F90D00435B5E8D58 /* MTGLDebugGLHookFunction.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugGLHookFunction.c; path = MTGLDebug/Core/MTGLDebugGLHookFunction.c; sourceTree = "<group>"; };
 		C8B93F9DFE790336A0E668FAB5CA39D4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		CBA5A3BD630FD7777D60A6C507C50BEE /* WXLoginViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WXLoginViewController.storyboard; path = WXLoginBusiness/Assets/WXLoginViewController.storyboard; sourceTree = "<group>"; };
-		CCD0194735A9DBC369C5F37213C51262 /* WXRocketCPUTracePublicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTracePublicHeader.h; sourceTree = "<group>"; };
+		CA8C2312BA05ECF3DBC0CB0FDCB235C8 /* WXRocketCPUTraceAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTraceAdaptor.h; sourceTree = "<group>"; };
 		CDA0FCD80B00D6FE3AED5FDA412AD0A9 /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
 		D0B34258E7427C323AE9494A32182916 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
-		D11CCEC731A4443D316DE9E57CBD43F2 /* WXRocketHooking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketHooking.h; path = WXRocket/Utils/WXRocketHooking.h; sourceTree = "<group>"; };
+		D1D4B51F85997F3C580072E0AEA178DC /* WXRocketWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketWeakProxy.m; path = WXRocket/Utils/WXRocketWeakProxy.m; sourceTree = "<group>"; };
 		D2272427F76D2CE932118A8F3046E4ED /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
 		D2B4CACF44EEDF792E592B979A422A88 /* MTGLDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebug.h; path = MTGLDebug/iOS/MTGLDebug.h; sourceTree = "<group>"; };
-		D3EC35B013686821641B872816AD2FF2 /* WXLoginBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXLoginBusiness.xcconfig; sourceTree = "<group>"; };
-		D487FD16254A19F9535120F6D312D613 /* WXRocketLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketLogMacros.h; path = WXRocket/Utils/WXRocketLogMacros.h; sourceTree = "<group>"; };
-		D4BD48BC4F7BE146094F66584B40B7BE /* WXRocketUserDefaults+CPUTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXRocketUserDefaults+CPUTrace.h"; sourceTree = "<group>"; };
+		D4759816999DE627EBE341845BE4FD5D /* WXRocketCPUTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTrace.h; sourceTree = "<group>"; };
 		D67891EF99FE40C1BCD27F3692EE6967 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
 		D685FAF870E9B88BF07E5F6CBAFAA9F7 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
-		D8C7BA1B826CCFBFD5A936F474C01FD9 /* WXRocketClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketClient.h; path = WXRocket/Core/WXRocketClient.h; sourceTree = "<group>"; };
+		D7FAACF1DB7B45AE35CD6A5278D25464 /* wxr_thread_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wxr_thread_utils.h; path = WXRocket/Utils/wxr_thread_utils.h; sourceTree = "<group>"; };
+		D824DFFF5AD6E90C5C282DB48B34305A /* MTHawkeyeEmptyHeaderForCPP.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeEmptyHeaderForCPP.hpp; path = WXRocket/Utils/MTHawkeyeEmptyHeaderForCPP.hpp; sourceTree = "<group>"; };
+		D82E928BE4A086FC66DC78C78919B8DF /* WXRocketCPUTraceHighLoadRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRocketCPUTraceHighLoadRecord.h; sourceTree = "<group>"; };
 		D8CFEB766B7112DF25799BDEAF017760 /* mtaf_appender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_appender.h; path = loglib/mtaf_appender.h; sourceTree = "<group>"; };
 		D9946CB34A252C899643AC799CE4C9CC /* Pods-RocketDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RocketDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		DADA7266D1D18E8684CF6BBEA92B0508 /* MTGLDebugGLHookFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTGLDebugGLHookFunction.h; path = MTGLDebug/Core/MTGLDebugGLHookFunction.h; sourceTree = "<group>"; };
 		DAF5C74526F70D1FEE9E4D3608AC91D7 /* MTGLDebugObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugObject.mm; path = MTGLDebug/iOS/MTGLDebugObject.mm; sourceTree = "<group>"; };
 		DB0A6D080D14B220C6B8CF94A96B6F40 /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
+		DDB49914A3144FA84559E753E438F20A /* WXMineBusiness.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WXMineBusiness.bundle; path = "WXMineBusiness-WXMineBusiness.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB6B552F62C590ADF2EB30C3E76D816 /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
 		DF8340DF0E61147347AF0E18C280D5AF /* mtaf_time_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_time_utils.c; path = comm/mtaf_time_utils.c; sourceTree = "<group>"; };
 		E01C3DE51281F768B23824ECD34403C4 /* MTAppenderFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTAppenderFile-dummy.m"; sourceTree = "<group>"; };
 		E09E000E1A311E6049C999A038EBFD8E /* libMTGLDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTGLDebug.a; path = libMTGLDebug.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E12BB1C7BB6F7444DDC57FA8125BB8CB /* WXRocketDyldImagesUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketDyldImagesUtils.mm; path = WXRocket/Utils/WXRocketDyldImagesUtils.mm; sourceTree = "<group>"; };
+		E0F52BB699CF1CFA05EB236EC06AEC83 /* WXR_RSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXR_RSSwizzle.h; path = WXRocket/Utils/WXR_RSSwizzle.h; sourceTree = "<group>"; };
+		E1BFA41B0B1C8FC0D2C711213A9401AE /* WXRocketWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketWeakProxy.h; path = WXRocket/Utils/WXRocketWeakProxy.h; sourceTree = "<group>"; };
+		E27A966FCDF37C9A535AEC30B44F87FE /* WXMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMineViewController.h; path = WXMineBusiness/Classes/WXMineViewController.h; sourceTree = "<group>"; };
 		E2FE380A1AC68BB8C47C341071F194D4 /* mtaf_ptrbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_ptrbuffer.h; path = comm/mtaf_ptrbuffer.h; sourceTree = "<group>"; };
 		E3609CDB0E6DC885546DA3ABE2444D23 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
 		E4762E5888546B2B66DDC88755C1AB0A /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
-		E6DC507F8D697E0133C6D31AF3E4065C /* WXLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLoginViewController.h; path = WXLoginBusiness/Classes/WXLoginViewController.h; sourceTree = "<group>"; };
+		E592AE5B7A90B50ACE10B06054C2EE27 /* WXRocketAppStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketAppStat.h; path = WXRocket/Core/WXRocketAppStat.h; sourceTree = "<group>"; };
+		E77340F70DB6FB97A605E3E774F9EC10 /* WXLoginViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WXLoginViewController.storyboard; path = WXLoginBusiness/Assets/WXLoginViewController.storyboard; sourceTree = "<group>"; };
 		E87E3B33BB2412EB8C290A888BFB1656 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		E9627E4C7E9DF2B87E7B52C6CF0E4580 /* WXRocketDyldImagesStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketDyldImagesStorage.m; path = WXRocket/Core/WXRocketDyldImagesStorage.m; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3131BD4C163242C4724736A22F02F0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		EBF73F83E4936FBE355D0F5CADE42AB0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		EC03DBC6A73C187E35D7C9EB97926CF3 /* wxr_thread_utils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = wxr_thread_utils.mm; path = WXRocket/Utils/wxr_thread_utils.mm; sourceTree = "<group>"; };
 		EC4390D030C0BBF1750E14A466955338 /* libPods-RocketDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RocketDemoTests.a"; path = "libPods-RocketDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBBCCA8C363393D0AB807B7D8977657 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		ED68BD11237ACB278F181C6187EC3AFB /* WXRocketLFUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRocketLFUCache.hpp; path = WXRocket/Utils/WXRocketLFUCache.hpp; sourceTree = "<group>"; };
 		EE0BA3820B3B98404F0CD07CA7ED2D1F /* MTGLDebug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTGLDebug-prefix.pch"; sourceTree = "<group>"; };
-		EF94584426699E7406A446C96DA0E780 /* WXR_RSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXR_RSSwizzle.m; path = WXRocket/Utils/WXR_RSSwizzle.m; sourceTree = "<group>"; };
 		EFD9CDF94B2B4A868DFFB49EE9E650DD /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		F0FA89EACF1FDBE2402249398B8389A1 /* mtaf_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_thread.h; path = comm/mtaf_thread.h; sourceTree = "<group>"; };
-		F11C1285783876F079A4C9C6A7AADC46 /* WXRocketDefaultPlugins.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketDefaultPlugins.m; path = WXRocket/DefaultPlugins/WXRocketDefaultPlugins.m; sourceTree = "<group>"; };
 		F126776F974C69F51730AE1CCE9AE229 /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
-		F4CCEBCD1B5D2BC34F71279CC0D5E5E1 /* WXMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMineViewController.h; path = WXMineBusiness/Classes/WXMineViewController.h; sourceTree = "<group>"; };
-		F5EC3A80C11613611F2B7798C90B29D2 /* WXLoginBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXLoginBusiness-prefix.pch"; sourceTree = "<group>"; };
 		F72D19274680696E7AB2D5384C189444 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		F7477C1DDBD5BC05EC7753D6FD20C98E /* Pods-RocketDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RocketDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F7B67D4FD315055DEFE5AC6CF5652028 /* Pods-RocketDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RocketDemoTests-dummy.m"; sourceTree = "<group>"; };
 		F7B6F7A63BCE8633DBE0FDAED85BD361 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		F7DE5BF00EE10A8DDEA148E4A343F372 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
-		F959BEAF4C54282165499651BD5E4425 /* WXRocketUserDefaults+CPUTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXRocketUserDefaults+CPUTrace.m"; sourceTree = "<group>"; };
+		F97227A4CACAE2ECAE50FD7075286897 /* WXRocketInitHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRocketInitHelper.h; path = WXRocket/DefaultPlugins/WXRocketInitHelper.h; sourceTree = "<group>"; };
 		FA0F4C110BDA9C7C26576F1D95E4BDE0 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		FAD2825CB5AB59EBE21B6BE201A8A02D /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
 		FB08CB92607575CA895CB80E83FE5ADD /* Pods-RocketDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RocketDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB823A502B292D4E98BA797A89A5CA09 /* WXMineBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXMineBusiness-prefix.pch"; sourceTree = "<group>"; };
 		FCFBD3C4B7C211933E6068494DF252F5 /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
 		FD7779356DC71FFF9715C5347EAD0C79 /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
+		FDD6F666A7728CB87F31851F4A49B67F /* WXEnergy.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WXEnergy.storyboard; path = WXMineBusiness/Assets/WXEnergy.storyboard; sourceTree = "<group>"; };
 		FE1500EEDDC7EE11B5DACB205925DE58 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		FE1A34F1A4C376396ECF6CD667B31F1C /* libWXRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWXRocket.a; path = libWXRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE22CC21A214F9BD55342B01FAE79D98 /* MTGLDebugQueue_iOS_Bridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGLDebugQueue_iOS_Bridge.mm; path = MTGLDebug/Core/MTGLDebugQueue_iOS_Bridge.mm; sourceTree = "<group>"; };
-		FE357906C000B23B633779CBDE8C6791 /* WXRocketPropertyBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRocketPropertyBox.m; path = WXRocket/Utils/WXRocketPropertyBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -643,6 +652,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0DDC14D2A109FA8CEE59E40B5556F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A057B81A7D95F5B4C0FDABD487F00E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -670,14 +686,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05B260E79D3BDCCD84093645BD6E230 /* Frameworks */ = {
+		9471763B4B7D762D77A7D878C862007C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B15B5FD1FE682DFF61B420BB336A4E /* Frameworks */ = {
+		B05B260E79D3BDCCD84093645BD6E230 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -708,31 +724,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01078B2D5008B73982D406433071CA4B /* RocketCore */ = {
+		0682B0B275CEB4B93641F7DC0564168A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				82653B3C3EE3179E40487C5BBD6A4FE6 /* WXRocketCPUTraceAdaptor.h */,
-				0EDF696720FF92815730D0C19CE9A8B2 /* WXRocketCPUTraceAdaptor.mm */,
-				D4BD48BC4F7BE146094F66584B40B7BE /* WXRocketUserDefaults+CPUTrace.h */,
-				F959BEAF4C54282165499651BD5E4425 /* WXRocketUserDefaults+CPUTrace.m */,
+				E592AE5B7A90B50ACE10B06054C2EE27 /* WXRocketAppStat.h */,
+				374080EDCFB0C41753B37320C9A99B01 /* WXRocketAppStat.m */,
+				57CCBA893DB5DBF73B5138ABD2618F62 /* WXRocketClient.h */,
+				1778040491DB148B445E654A2515E1A6 /* WXRocketClient.m */,
+				28ACE8BBB229D576B81267C1F1A15B9C /* WXRocketDyldImagesStorage.h */,
+				E9627E4C7E9DF2B87E7B52C6CF0E4580 /* WXRocketDyldImagesStorage.m */,
+				53F6C06A3A78C19B7DAC3E18DCEF253F /* WXRocketPlugin.h */,
+				748993EFAD332B1474C81366E55AACC3 /* WXRocketStorage.h */,
+				BEE00B30E406A45F819A4B0FDE569EAA /* WXRocketStorage.m */,
+				BDFC997494A8E94AE553359A27630AC7 /* WXRocketUserDefaults.h */,
+				B2D6787AF3BA0324984D71B7F51D259E /* WXRocketUserDefaults.m */,
 			);
-			name = RocketCore;
-			path = WXRocket/EnergyPlugins/CPUTrace/RocketCore;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		08F25154BDF02B7E782EECB080295E9F /* WXRocket */ = {
+		07E8EDFE90CF9192103C44F370216930 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A3B16553C044439D13E088929C75A62 /* Core */,
-				311BF997098EC68A5440433E216B1A7C /* DefaultAll */,
-				A89CE14DAFF41FFA5D5596EADFECFE63 /* EnergyPlugins */,
-				5D45FCFFF3A2A61BBE17DF04D29075EF /* Pod */,
-				11EE0A715E2E8172B265F0BE02D47C06 /* StackBacktrace */,
-				CA1363E658F5B1C24AAA209E71E2AE97 /* Support Files */,
-				958C341786196183A047EE0F1CB984E2 /* Utils */,
+				79F4AA1EBB206ED2098291E1FAC3EF7D /* WXRocket.xcconfig */,
+				59A2B0FBF4A1489B0D04CD1C26636D5D /* WXRocket-dummy.m */,
+				517E38599AF786E32E89FA727B0FA8A1 /* WXRocket-prefix.pch */,
 			);
-			name = WXRocket;
-			path = ../../Lib/WXRocket;
+			name = "Support Files";
+			path = "../../Rocket/Pods/Target Support Files/WXRocket";
 			sourceTree = "<group>";
 		};
 		0BD73E675E2F01BA123E79BDFC3D5D80 /* SVProgressHUD */ = {
@@ -753,32 +771,12 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		0F583F3FD8A57BEF0BC2E0E1C91E8D03 /* WXLoginBusiness */ = {
+		1240DF2B941422BAD84F89803BA75970 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A31B8A4AA9505B7807FA674EE6C1FC94 /* WXLoginDetailViewController.h */,
-				3099B6887CCF662ED28887C3E7857388 /* WXLoginDetailViewController.m */,
-				E6DC507F8D697E0133C6D31AF3E4065C /* WXLoginViewController.h */,
-				0C94B8355B9F1F3E6B28A53A6084E19E /* WXLoginViewController.m */,
-				F82960782158CC8706DD92F203EEF3FF /* Pod */,
-				3C0D4D573B7A0C7534101E178A4E4124 /* Resources */,
-				1CC9950AE84B4809E41A843019AE9D22 /* Support Files */,
+				E77340F70DB6FB97A605E3E774F9EC10 /* WXLoginViewController.storyboard */,
 			);
-			name = WXLoginBusiness;
-			path = ../../Lib/WXLoginBusiness;
-			sourceTree = "<group>";
-		};
-		11EE0A715E2E8172B265F0BE02D47C06 /* StackBacktrace */ = {
-			isa = PBXGroup;
-			children = (
-				620BC9D2F33D096337FBE6A35FDB221E /* wxr_stack_backtrace.h */,
-				A575C5ECB8D2D4A476B9A47FB5668717 /* wxr_stack_backtrace.mm */,
-				0DD3E618DCCC12A1DFEB6D20A265E621 /* WXRocketStackFrameSymbolics.h */,
-				5696817216F699C5D831222E6457C876 /* WXRocketStackFrameSymbolics.mm */,
-				BB82EA886636A6697DBDA8EE9A6F3BC9 /* WXRocketStackFrameSymbolicsRemote.h */,
-				6444BD5289C8B9AA94875345E44E5A21 /* WXRocketStackFrameSymbolicsRemote.m */,
-			);
-			name = StackBacktrace;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		14AB8CEAE1741419FE2EE136B6D4FE27 /* MTAppenderFile */ = {
@@ -817,15 +815,64 @@
 			path = MTAppenderFile;
 			sourceTree = "<group>";
 		};
-		1CC9950AE84B4809E41A843019AE9D22 /* Support Files */ = {
+		1503AE81491A4DE6C30FEA6756019041 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3EC35B013686821641B872816AD2FF2 /* WXLoginBusiness.xcconfig */,
-				93E9109FDD0FE32F152124B91B90EE4D /* WXLoginBusiness-dummy.m */,
-				F5EC3A80C11613611F2B7798C90B29D2 /* WXLoginBusiness-prefix.pch */,
+				9CA216629A7529B075F3AC826470B254 /* libfishhook.a */,
+				ABF65919CCE720EB5139FA6F11E2B294 /* libKIF.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */,
+				E09E000E1A311E6049C999A038EBFD8E /* libMTGLDebug.a */,
+				976E5B19BD47803D656E658959849DCE /* libPods-RocketDemo.a */,
+				EC4390D030C0BBF1750E14A466955338 /* libPods-RocketDemoTests.a */,
+				E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */,
+				58FF4AD9FD225C0B7DB5E295F241B0C7 /* libWXLoginBusiness.a */,
+				A658955378CFC3F3C9039DC724FCF915 /* libWXMineBusiness.a */,
+				FE1A34F1A4C376396ECF6CD667B31F1C /* libWXRocket.a */,
+				DDB49914A3144FA84559E753E438F20A /* WXMineBusiness.bundle */,
 			);
-			name = "Support Files";
-			path = "../../Rocket/Pods/Target Support Files/WXLoginBusiness";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1F8E5D40EF12C3AF6200166AAACA04 /* WXLoginBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				A2079672C41CF16183DFA0195D0B9087 /* WXLoginDetailViewController.h */,
+				68BACB92FE5E07BBBF23A1DD93BD494D /* WXLoginDetailViewController.m */,
+				9AAB17D45B9967FD8E380F81F851FE04 /* WXLoginViewController.h */,
+				6330057B40F6146698D77F12221D27CA /* WXLoginViewController.m */,
+				B6D6303B47221825377E57DA3CB19337 /* Pod */,
+				1240DF2B941422BAD84F89803BA75970 /* Resources */,
+				A57143F7B2DC8498A4E6793FB00765F1 /* Support Files */,
+			);
+			name = WXLoginBusiness;
+			path = ../../Lib/WXLoginBusiness;
+			sourceTree = "<group>";
+		};
+		20BAEAFAE40E8B42BAF32E27BB05AE4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0F52BB699CF1CFA05EB236EC06AEC83 /* WXR_RSSwizzle.h */,
+				396EC8DB93E4359C1D3857C54C3A87B5 /* WXR_RSSwizzle.m */,
+				D7FAACF1DB7B45AE35CD6A5278D25464 /* wxr_thread_utils.h */,
+				EC03DBC6A73C187E35D7C9EB97926CF3 /* wxr_thread_utils.mm */,
+				C382C441A9DC750DC74D0839C4761264 /* WXRocketDyldImagesUtils.h */,
+				88A4D65F1DF8DC3030F76652B3BA64A0 /* WXRocketDyldImagesUtils.mm */,
+				57355ED556CB33F33B4BAFEDA4D52615 /* WXRocketHooking.h */,
+				2DA5FB663BF8D0FF757CB1F583D81F9B /* WXRocketHooking.m */,
+				C4403DD0D04438E5355D67696CF97F24 /* WXRocketInnerLogger.h */,
+				9BEEDCCF9015907888C1FC70DCEFA5BE /* WXRocketInnerLogger.m */,
+				7206F5CF65D0266F10B3D39E3D0E12B3 /* WXRocketLogMacros.h */,
+				668BF8B0B8AFD33FC15BB714E9DBD079 /* WXRocketPropertyBox.h */,
+				A0782D76F9C8A566FF5A72E72BF5F1B0 /* WXRocketPropertyBox.m */,
+				55AC89CDD7DFD987C492258A7E26ADC5 /* WXRocketSignPosts.h */,
+				5907F4EB31EFCC393DF8C8B3C03EA303 /* WXRocketUtility.h */,
+				B5B1B767E4330C77556421E70DFEC65C /* WXRocketUtility.m */,
+				E1BFA41B0B1C8FC0D2C711213A9401AE /* WXRocketWeakProxy.h */,
+				D1D4B51F85997F3C580072E0AEA178DC /* WXRocketWeakProxy.m */,
+				C8654AF2E7F77BDD1E02608EA7E4C970 /* cpp */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		2209B46EC72D543EF35F3E3B828EFF52 /* Pods */ = {
@@ -839,6 +886,19 @@
 				0BD73E675E2F01BA123E79BDFC3D5D80 /* SVProgressHUD */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		24E1C717384DE52B87ACB7A2C489E303 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4759816999DE627EBE341845BE4FD5D /* WXRocketCPUTrace.h */,
+				43F97DBC9083DAE1EB2782D48055FCFA /* WXRocketCPUTrace.mm */,
+				D82E928BE4A086FC66DC78C78919B8DF /* WXRocketCPUTraceHighLoadRecord.h */,
+				83CFCA318F63B7B217CA1975270A063C /* WXRocketCPUTraceHighLoadRecord.mm */,
+				3088A0F17428E8BB6FA0ACE52E96A738 /* WXRocketCPUTracePublicHeader.h */,
+			);
+			name = Core;
+			path = WXRocket/EnergyPlugins/CPUTrace/Core;
 			sourceTree = "<group>";
 		};
 		288FA2B4C0CC04287CEB3090EEDB8332 /* Core */ = {
@@ -914,15 +974,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		311BF997098EC68A5440433E216B1A7C /* DefaultAll */ = {
+		30CF091001213E48D4EBD4E2365E16E9 /* CPUTrace */ = {
 			isa = PBXGroup;
 			children = (
-				64C5037A4F9F6FC7F8810E42FDCF0475 /* WXRocketDefaultPlugins.h */,
-				F11C1285783876F079A4C9C6A7AADC46 /* WXRocketDefaultPlugins.m */,
-				0EA72FCC55111BF3D611137852625114 /* WXRocketInitHelper.h */,
-				AFB7410ADA61460EF90968A57F9C3D28 /* WXRocketInitHelper.m */,
+				24E1C717384DE52B87ACB7A2C489E303 /* Core */,
+				56B570FF5FBB18159EEB4475793BCB7D /* RocketCore */,
+				71EFAF234E7DD0557E931C13E04655D3 /* RocketUI */,
 			);
-			name = DefaultAll;
+			name = CPUTrace;
 			sourceTree = "<group>";
 		};
 		3340307A6018C830591D81111FC027A5 /* Support Files */ = {
@@ -944,14 +1003,6 @@
 			);
 			name = KIF;
 			path = KIF;
-			sourceTree = "<group>";
-		};
-		3C0D4D573B7A0C7534101E178A4E4124 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CBA5A3BD630FD7777D60A6C507C50BEE /* WXLoginViewController.storyboard */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		3ED62F39949A22E6A8531A4EB1087F1D /* Masonry */ = {
@@ -988,22 +1039,16 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		5D45FCFFF3A2A61BBE17DF04D29075EF /* Pod */ = {
+		56B570FF5FBB18159EEB4475793BCB7D /* RocketCore */ = {
 			isa = PBXGroup;
 			children = (
-				A5A539910BE3EBE2E1CE5F6D201B2284 /* WXRocket.podspec */,
+				CA8C2312BA05ECF3DBC0CB0FDCB235C8 /* WXRocketCPUTraceAdaptor.h */,
+				77B06CEA69B391049DE11BE3E4467115 /* WXRocketCPUTraceAdaptor.mm */,
+				4480D8089552A626499B3464515AF595 /* WXRocketUserDefaults+CPUTrace.h */,
+				3C72B58407F8376016A3381435772112 /* WXRocketUserDefaults+CPUTrace.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5D7CCCF3C112498D914DE1D0220044B5 /* CPUTrace */ = {
-			isa = PBXGroup;
-			children = (
-				807A5CBCFA661C7B4E2B51321639C58D /* Core */,
-				01078B2D5008B73982D406433071CA4B /* RocketCore */,
-				640BB0CF8184B95AF6B1FF49801BEB4C /* RocketUI */,
-			);
-			name = CPUTrace;
+			name = RocketCore;
+			path = WXRocket/EnergyPlugins/CPUTrace/RocketCore;
 			sourceTree = "<group>";
 		};
 		617A990043C1452A19E34D2B9078F1C6 /* Support Files */ = {
@@ -1015,22 +1060,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/fishhook";
-			sourceTree = "<group>";
-		};
-		629DFE9CAE0B0CEFC9B2AEF36A87239F /* WXMineBusiness */ = {
-			isa = PBXGroup;
-			children = (
-				71186CC95F35911B15CB438FBCF173FB /* WXEnergy.storyboard */,
-				9495C2D9EEFD24A41E752F8ABE376AA4 /* WXEnergyViewController.h */,
-				BCE945F3ADF9E43004471CEA27516530 /* WXEnergyViewController.m */,
-				F4CCEBCD1B5D2BC34F71279CC0D5E5E1 /* WXMineViewController.h */,
-				6921FC0E6D786E8E26E5CB7B27B2B65D /* WXMineViewController.m */,
-				801EA338B55BF3F4C862C0CAF4D1901C /* Pod */,
-				DB9A7CE63CCE08BBA8F54EFE19603373 /* Resources */,
-				794DABFA8EAC72721396FF68E5723788 /* Support Files */,
-			);
-			name = WXMineBusiness;
-			path = ../../Lib/WXMineBusiness;
 			sourceTree = "<group>";
 		};
 		63979FC81A0DCD3C0ECB9F9055B98299 /* Pods-RocketDemo */ = {
@@ -1047,34 +1076,15 @@
 			path = "Target Support Files/Pods-RocketDemo";
 			sourceTree = "<group>";
 		};
-		640BB0CF8184B95AF6B1FF49801BEB4C /* RocketUI */ = {
+		6E48030292E000835CE2A93607330DCC /* DefaultAll */ = {
 			isa = PBXGroup;
 			children = (
-				057F82658DD883D6541A68BBA13A3108 /* WXRocketCPURecordsViewController.h */,
-				27199071745D35465B10AE8C72188569 /* WXRocketCPURecordsViewController.mm */,
-				5DB855A21C34E66ADF8E2DC71670A6BF /* WXRocketWebViewController.h */,
-				4D4EEC1FB33B5CC10D1FCBB6B347D7B7 /* WXRocketWebViewController.m */,
+				60FBB5D13538A39FAA863915571E11AC /* WXRocketDefaultPlugins.h */,
+				5018F61235FC6147A75546090E6EF88D /* WXRocketDefaultPlugins.m */,
+				F97227A4CACAE2ECAE50FD7075286897 /* WXRocketInitHelper.h */,
+				187CC62FD2F34DB038E21C85CB995A0D /* WXRocketInitHelper.m */,
 			);
-			name = RocketUI;
-			path = WXRocket/EnergyPlugins/CPUTrace/RocketUI;
-			sourceTree = "<group>";
-		};
-		6A3B16553C044439D13E088929C75A62 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6E21807FAB595568EDBF5017447DABBE /* WXRocketAppStat.h */,
-				34DF3C2C179B460946DB906D04F3562B /* WXRocketAppStat.m */,
-				D8C7BA1B826CCFBFD5A936F474C01FD9 /* WXRocketClient.h */,
-				9BD98FDE1ADBB5689F4E5072983CBB9E /* WXRocketClient.m */,
-				8D7BFB171DE1049B683F68319B86EACB /* WXRocketDyldImagesStorage.h */,
-				6FFEF53A598C7DC93CA6E3E608368957 /* WXRocketDyldImagesStorage.m */,
-				727D6AC362B4F1525C5765CF20B9FF45 /* WXRocketPlugin.h */,
-				9253FB6790439C77E97F6D5758920408 /* WXRocketStorage.h */,
-				A20CFAB34FC01F66EF9390D31655196D /* WXRocketStorage.m */,
-				1E55B0AB178BCDFCF1B8618725FEEDB0 /* WXRocketUserDefaults.h */,
-				718DF4AF1503B02207F697862D49E6F9 /* WXRocketUserDefaults.m */,
-			);
-			name = Core;
+			name = DefaultAll;
 			sourceTree = "<group>";
 		};
 		708798B0612FA8465FAE76F910799BAF /* ARC */ = {
@@ -1093,6 +1103,18 @@
 			name = ARC;
 			sourceTree = "<group>";
 		};
+		71EFAF234E7DD0557E931C13E04655D3 /* RocketUI */ = {
+			isa = PBXGroup;
+			children = (
+				85798CF18B4182883AB72AE510D30CDD /* WXRocketCPURecordsViewController.h */,
+				2E156AD8C9C3F95AF81BDB88D74AF4BD /* WXRocketCPURecordsViewController.mm */,
+				0185F4F036D084F52C5186DF30B6DB75 /* WXRocketWebViewController.h */,
+				B6BB31DEA63E352C4BDE3F97493F8F17 /* WXRocketWebViewController.m */,
+			);
+			name = RocketUI;
+			path = WXRocket/EnergyPlugins/CPUTrace/RocketUI;
+			sourceTree = "<group>";
+		};
 		7771B09D545B373C6DD5A269AA8CD915 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1104,15 +1126,14 @@
 			path = "../Target Support Files/MTGLDebug";
 			sourceTree = "<group>";
 		};
-		794DABFA8EAC72721396FF68E5723788 /* Support Files */ = {
+		77720BA04D86BBF7A4C7DDBCAA26D646 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8D6162F28803D3C8E3B029B43B5EACC5 /* WXMineBusiness.xcconfig */,
-				38C66FFA7284C1D7F072437D69FD1E6C /* WXMineBusiness-dummy.m */,
-				FB823A502B292D4E98BA797A89A5CA09 /* WXMineBusiness-prefix.pch */,
+				6D842FB99E6C5BF08CEABB1ADBFF6CCB /* LICENSE */,
+				BD852C79C56A446AA46444CF4F48337F /* README.md */,
+				68B5B36B25621DB5790D2DDB3E576214 /* WXMineBusiness.podspec */,
 			);
-			name = "Support Files";
-			path = "../../Rocket/Pods/Target Support Files/WXMineBusiness";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DE1D4F7D7D861914D7762B83972CD2F /* MTGLDebug */ = {
@@ -1126,27 +1147,12 @@
 			path = MTGLDebug;
 			sourceTree = "<group>";
 		};
-		801EA338B55BF3F4C862C0CAF4D1901C /* Pod */ = {
+		7FB8A6977A3FA934347FCD78CF141E30 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				02D044B738C61289452052F7D645A97E /* LICENSE */,
-				03612AC6FAF95E37DC2FC84697259A40 /* README.md */,
-				3B7A4FF05CE8214AC082FA0987EA5D2C /* WXMineBusiness.podspec */,
+				6C86A1163EF1CC220A29CA4F14F201CE /* WXRocket.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		807A5CBCFA661C7B4E2B51321639C58D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				4BF97EB0FBF03D5D1912FA7F8DDB41C0 /* WXRocketCPUTrace.h */,
-				8C048D6BC7E0BA97365C5DE6AAA9A9FF /* WXRocketCPUTrace.mm */,
-				8543084717636DC6C2C9222900D4FD22 /* WXRocketCPUTraceHighLoadRecord.h */,
-				09D4F879D79EA8D3CE090669B3658F88 /* WXRocketCPUTraceHighLoadRecord.mm */,
-				CCD0194735A9DBC369C5F37213C51262 /* WXRocketCPUTracePublicHeader.h */,
-			);
-			name = Core;
-			path = WXRocket/EnergyPlugins/CPUTrace/Core;
 			sourceTree = "<group>";
 		};
 		8E6BACF672EFD2AA6B9B63CEE3256F9E /* Support Files */ = {
@@ -1158,32 +1164,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		958C341786196183A047EE0F1CB984E2 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				394AEA78C13155B51C9CD2F4514C5E19 /* WXR_RSSwizzle.h */,
-				EF94584426699E7406A446C96DA0E780 /* WXR_RSSwizzle.m */,
-				0956461DF787A5C0DB1DD9F9C790217D /* wxr_thread_utils.h */,
-				371DBD6EF987BD17AD661DBC373937F2 /* wxr_thread_utils.mm */,
-				82507325534A8343004D9D9C0E8EFA53 /* WXRocketDyldImagesUtils.h */,
-				E12BB1C7BB6F7444DDC57FA8125BB8CB /* WXRocketDyldImagesUtils.mm */,
-				D11CCEC731A4443D316DE9E57CBD43F2 /* WXRocketHooking.h */,
-				BA59F26186EC86ECE7DDE34738D40E2A /* WXRocketHooking.m */,
-				0BE65A587EBAEDB85E58C5FACB31923A /* WXRocketInnerLogger.h */,
-				40648AEC5EEC10818EC3027F32BCC76F /* WXRocketInnerLogger.m */,
-				D487FD16254A19F9535120F6D312D613 /* WXRocketLogMacros.h */,
-				72269D0563A738D25B9633DD444FB9D1 /* WXRocketPropertyBox.h */,
-				FE357906C000B23B633779CBDE8C6791 /* WXRocketPropertyBox.m */,
-				1863DF366260961580E6B30D1FD6B78A /* WXRocketSignPosts.h */,
-				65B69B01085C1C72C400EC1DA1D09A9C /* WXRocketUtility.h */,
-				816E0C962C830A38ED82B1E58550D810 /* WXRocketUtility.m */,
-				91B90E37BA7E02BEA2A0E128212A9D76 /* WXRocketWeakProxy.h */,
-				BC6D943E1D2DBD4DCA93CE41088F9CC7 /* WXRocketWeakProxy.m */,
-				AD3E80E1E0EB6C7CA51F2D7269DFF54E /* cpp */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 		971681D7CFE8DD2F359190229DB9A237 /* MRC */ = {
@@ -1217,6 +1197,16 @@
 			name = MRC;
 			sourceTree = "<group>";
 		};
+		997011B5A0D585E2BD55631874990D74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F8E5D40EF12C3AF6200166AAACA04 /* WXLoginBusiness */,
+				A0B4AF2CFA2002E3BAF4D5DB023C9FBC /* WXMineBusiness */,
+				ED4722820DA47012A141F88763796D01 /* WXRocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		9AB7EB1A87A7704A23C1A80B9C697EF6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1228,14 +1218,19 @@
 			path = "../Target Support Files/MTAppenderFile";
 			sourceTree = "<group>";
 		};
-		A22C31AF19E93CC80A2BE016583AB5B4 /* Development Pods */ = {
+		A0B4AF2CFA2002E3BAF4D5DB023C9FBC /* WXMineBusiness */ = {
 			isa = PBXGroup;
 			children = (
-				0F583F3FD8A57BEF0BC2E0E1C91E8D03 /* WXLoginBusiness */,
-				629DFE9CAE0B0CEFC9B2AEF36A87239F /* WXMineBusiness */,
-				08F25154BDF02B7E782EECB080295E9F /* WXRocket */,
+				04EABD8B0D9E5DCF10E34FD6C3373D1B /* WXEnergyViewController.h */,
+				03873A5608EB501E15F84753DEBEB2FB /* WXEnergyViewController.m */,
+				E27A966FCDF37C9A535AEC30B44F87FE /* WXMineViewController.h */,
+				8921A0794E8D8728EDE288F28942410F /* WXMineViewController.m */,
+				77720BA04D86BBF7A4C7DDBCAA26D646 /* Pod */,
+				F2491E2493D79D15F24DD30745A6DA70 /* Resources */,
+				DB2B7B8AE4018016F86CCEFE64582627 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WXMineBusiness;
+			path = ../../Lib/WXMineBusiness;
 			sourceTree = "<group>";
 		};
 		A369F2351015AF4F4352956AB3A5A76C /* Targets Support Files */ = {
@@ -1247,22 +1242,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A89CE14DAFF41FFA5D5596EADFECFE63 /* EnergyPlugins */ = {
+		A57143F7B2DC8498A4E6793FB00765F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D7CCCF3C112498D914DE1D0220044B5 /* CPUTrace */,
+				7D3F9F85EBF4EC35BBEADDE044697F95 /* WXLoginBusiness.xcconfig */,
+				1A7F4971AF90C44443E71F611852A4CE /* WXLoginBusiness-dummy.m */,
+				B4AD105A54B5B961F31EE7657C4AF2BE /* WXLoginBusiness-prefix.pch */,
 			);
-			name = EnergyPlugins;
-			sourceTree = "<group>";
-		};
-		AD3E80E1E0EB6C7CA51F2D7269DFF54E /* cpp */ = {
-			isa = PBXGroup;
-			children = (
-				78B88497F8220944EE34BCB092A4C2D3 /* MTHawkeyeEmptyHeaderForCPP.hpp */,
-				383C73BD58A431807A5A63E2595C2E27 /* WXRocketLFUCache.cpp */,
-				ED68BD11237ACB278F181C6187EC3AFB /* WXRocketLFUCache.hpp */,
-			);
-			name = cpp;
+			name = "Support Files";
+			path = "../../Rocket/Pods/Target Support Files/WXLoginBusiness";
 			sourceTree = "<group>";
 		};
 		B323EB85ED64D7B2ADED981EF76E6589 /* fishhook */ = {
@@ -1276,15 +1264,24 @@
 			path = fishhook;
 			sourceTree = "<group>";
 		};
-		CA1363E658F5B1C24AAA209E71E2AE97 /* Support Files */ = {
+		B6D6303B47221825377E57DA3CB19337 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				303817DF797261D875E5FDC95CA5F1BC /* WXRocket.xcconfig */,
-				48473F67F5891DB79C849961639437DA /* WXRocket-dummy.m */,
-				1BDBB09A40568CA493EDFEA83A9D6DB4 /* WXRocket-prefix.pch */,
+				60A6C5DE66D29ACC34EFD7B0E5211A60 /* LICENSE */,
+				374983F2FE44629B29F97511D2D37B5F /* README.md */,
+				731B6A66CDAEA905AB29B53184671ADD /* WXLoginBusiness.podspec */,
 			);
-			name = "Support Files";
-			path = "../../Rocket/Pods/Target Support Files/WXRocket";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C8654AF2E7F77BDD1E02608EA7E4C970 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				D824DFFF5AD6E90C5C282DB48B34305A /* MTHawkeyeEmptyHeaderForCPP.hpp */,
+				1F49F44BC9056E87596150DB1C60D29A /* WXRocketLFUCache.cpp */,
+				17835DB1D37DD9157AAAA3AAE9CA3D8D /* WXRocketLFUCache.hpp */,
+			);
+			name = cpp;
 			sourceTree = "<group>";
 		};
 		CAD217983AD429B8F476DCC10B486933 /* Pods-RocketDemoTests */ = {
@@ -1304,10 +1301,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A22C31AF19E93CC80A2BE016583AB5B4 /* Development Pods */,
+				997011B5A0D585E2BD55631874990D74 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				2209B46EC72D543EF35F3E3B828EFF52 /* Pods */,
-				FE788337153A57579E3808BFFC483D2E /* Products */,
+				1503AE81491A4DE6C30FEA6756019041 /* Products */,
 				A369F2351015AF4F4352956AB3A5A76C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -1319,12 +1316,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB9A7CE63CCE08BBA8F54EFE19603373 /* Resources */ = {
+		DB2B7B8AE4018016F86CCEFE64582627 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30B7DAFAFE5321504631DA48AE87C11A /* WXMineViewController.xib */,
+				607EDB462CB3C11DC228EA87A9661709 /* ResourceBundle-WXMineBusiness-WXMineBusiness-Info.plist */,
+				774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */,
+				1DBC11FB866F53EBBA95EFC6C798B4F2 /* WXMineBusiness-dummy.m */,
+				157B70121C34BC198320F7D631F92EE5 /* WXMineBusiness-prefix.pch */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../../Rocket/Pods/Target Support Files/WXMineBusiness";
+			sourceTree = "<group>";
+		};
+		DC4A43A03AEE28BC574F6F9AA2B664B0 /* EnergyPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				30CF091001213E48D4EBD4E2365E16E9 /* CPUTrace */,
+			);
+			name = EnergyPlugins;
+			sourceTree = "<group>";
+		};
+		EB6EDA4DA3E3B27F89D831188B6BF227 /* StackBacktrace */ = {
+			isa = PBXGroup;
+			children = (
+				43CDB450C1EE9D79A3744B7417545D9A /* wxr_stack_backtrace.h */,
+				61FD666230B844DA4EA11EDA5B75237A /* wxr_stack_backtrace.mm */,
+				0C61CCEEEC5D3B30DD649423EE49035E /* WXRocketStackFrameSymbolics.h */,
+				6BCDAF64F3292112505A7EEF639FD26E /* WXRocketStackFrameSymbolics.mm */,
+				27FAABC674E34F9133413850AC31BC32 /* WXRocketStackFrameSymbolicsRemote.h */,
+				AEAA379D79BBA15835D0CA3088E8ADC4 /* WXRocketStackFrameSymbolicsRemote.m */,
+			);
+			name = StackBacktrace;
+			sourceTree = "<group>";
+		};
+		ED4722820DA47012A141F88763796D01 /* WXRocket */ = {
+			isa = PBXGroup;
+			children = (
+				0682B0B275CEB4B93641F7DC0564168A /* Core */,
+				6E48030292E000835CE2A93607330DCC /* DefaultAll */,
+				DC4A43A03AEE28BC574F6F9AA2B664B0 /* EnergyPlugins */,
+				7FB8A6977A3FA934347FCD78CF141E30 /* Pod */,
+				EB6EDA4DA3E3B27F89D831188B6BF227 /* StackBacktrace */,
+				07E8EDFE90CF9192103C44F370216930 /* Support Files */,
+				20BAEAFAE40E8B42BAF32E27BB05AE4E /* Utils */,
+			);
+			name = WXRocket;
+			path = ../../Lib/WXRocket;
 			sourceTree = "<group>";
 		};
 		F0D8889F709D542DCDE731993122B588 /* Support Files */ = {
@@ -1338,14 +1375,13 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		F82960782158CC8706DD92F203EEF3FF /* Pod */ = {
+		F2491E2493D79D15F24DD30745A6DA70 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				972A874184D44D6E1ACEDE6DEE5F3A2B /* LICENSE */,
-				7A1B8BF669E50A2F231A95F9BA186A97 /* README.md */,
-				17186CD2E7EB565EBC65B6A66870D9E7 /* WXLoginBusiness.podspec */,
+				FDD6F666A7728CB87F31851F4A49B67F /* WXEnergy.storyboard */,
+				703C69420050B7FA2645B69B831EC3C6 /* WXMineViewController.xib */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		FABFE65259321FDC27ADCF8BC4A6EABA /* Resources */ = {
@@ -1354,24 +1390,6 @@
 				69158C8A996E0D7EE53E35E32C62DDA8 /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		FE788337153A57579E3808BFFC483D2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9CA216629A7529B075F3AC826470B254 /* libfishhook.a */,
-				ABF65919CCE720EB5139FA6F11E2B294 /* libKIF.a */,
-				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
-				86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */,
-				E09E000E1A311E6049C999A038EBFD8E /* libMTGLDebug.a */,
-				976E5B19BD47803D656E658959849DCE /* libPods-RocketDemo.a */,
-				EC4390D030C0BBF1750E14A466955338 /* libPods-RocketDemoTests.a */,
-				E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */,
-				58FF4AD9FD225C0B7DB5E295F241B0C7 /* libWXLoginBusiness.a */,
-				A658955378CFC3F3C9039DC724FCF915 /* libWXMineBusiness.a */,
-				FE1A34F1A4C376396ECF6CD667B31F1C /* libWXRocket.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1435,20 +1453,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C3FD85EAC4A0DD872BA529BA777BE3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C900A514C00335BE1CB94034F225B873 /* WXEnergyViewController.h in Headers */,
+				7933DBF410331B9642B745F3D6B9053E /* WXMineViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		414ED3D3C53D8936ABADA5F5F54F867A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A79375AB688BD77C6ED0F4B98193483B /* fishhook.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CECD41E7369D11C5E5611CA8E9E3BAE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF52D8B8732DB4140683E589BC73AD22 /* WXEnergyViewController.h in Headers */,
-				19263E44F447E2527363E938D1DEBF23 /* WXMineViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1627,15 +1645,16 @@
 		};
 		1708AFA793D731E280513241EB4242A6 /* WXMineBusiness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931E9A88C8CE2C04A8650435DE8F7318 /* Build configuration list for PBXNativeTarget "WXMineBusiness" */;
+			buildConfigurationList = 1651C68E4769CC252F573CE4C3073F24 /* Build configuration list for PBXNativeTarget "WXMineBusiness" */;
 			buildPhases = (
-				5CECD41E7369D11C5E5611CA8E9E3BAE /* Headers */,
-				7A37F8D846653047A6AC48CEC2D36922 /* Sources */,
-				B7B15B5FD1FE682DFF61B420BB336A4E /* Frameworks */,
+				3C3FD85EAC4A0DD872BA529BA777BE3F /* Headers */,
+				280E0762A7B82D15823E4F7569E04F55 /* Sources */,
+				9471763B4B7D762D77A7D878C862007C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8ED93986592F999D6A51136F7BE0704 /* PBXTargetDependency */,
 			);
 			name = WXMineBusiness;
 			productName = WXMineBusiness;
@@ -1729,6 +1748,23 @@
 			productReference = 9CA216629A7529B075F3AC826470B254 /* libfishhook.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		8485B9DEF270561AF93676C2B1BF7E2A /* WXMineBusiness-WXMineBusiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8F74050CF56AE4034B192607705FC4 /* Build configuration list for PBXNativeTarget "WXMineBusiness-WXMineBusiness" */;
+			buildPhases = (
+				980253F0B687FD26D6B4BD7000E90BDC /* Sources */,
+				4A057B81A7D95F5B4C0FDABD487F00E8 /* Frameworks */,
+				7D6F7407762576094523FB76316675BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WXMineBusiness-WXMineBusiness";
+			productName = "WXMineBusiness-WXMineBusiness";
+			productReference = DDB49914A3144FA84559E753E438F20A /* WXMineBusiness.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		AC234AE73A5D2E00C786B807F70263BA /* MTAppenderFile */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D175E29708F274F64117BFED1B043188 /* Build configuration list for PBXNativeTarget "MTAppenderFile" */;
@@ -1800,7 +1836,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FE788337153A57579E3808BFFC483D2E /* Products */;
+			productRefGroup = 1503AE81491A4DE6C30FEA6756019041 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1814,10 +1850,22 @@
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 				3E6064A155E1CD5517710641DAEC5441 /* WXLoginBusiness */,
 				1708AFA793D731E280513241EB4242A6 /* WXMineBusiness */,
+				8485B9DEF270561AF93676C2B1BF7E2A /* WXMineBusiness-WXMineBusiness */,
 				B22BB9BF247728E22EC1B29EF6F3DD1F /* WXRocket */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6F7407762576094523FB76316675BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B611ADF900A3F3F22659ED47BC1DAD3C /* WXEnergy.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A2631525E5B0FE65C15C1755B3D1E9E /* Sources */ = {
@@ -1835,6 +1883,16 @@
 				804ACFFBF747EE032103C563D51FA252 /* mtaf_time_utils.c in Sources */,
 				AA158DEC6780EA79D2C246C404E4E5AC /* MTAppenderFile-dummy.m in Sources */,
 				A759C1F8ED595C6A445EA0AFA5CB9619 /* MTAppenderFile.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E0762A7B82D15823E4F7569E04F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AAD0E1C2F98F1381487760079E7934 /* WXEnergyViewController.m in Sources */,
+				D9CB674788FEFDB2968D81FF8B29A641 /* WXMineBusiness-dummy.m in Sources */,
+				EFA94604FAC8CA453AE6F69DC177EF64 /* WXMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1926,17 +1984,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A37F8D846653047A6AC48CEC2D36922 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				881807E5C88BF11E7653D12E06459DC5 /* WXEnergy.storyboard in Sources */,
-				C60055B817A4622016B46EB6415CAF82 /* WXEnergyViewController.m in Sources */,
-				262C26EDA85D90613B5EF172FCA679C5 /* WXMineBusiness-dummy.m in Sources */,
-				8A37CB9B1BE3A9E966913AD3DB555D9E /* WXMineViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1952,6 +1999,13 @@
 				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
 				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980253F0B687FD26D6B4BD7000E90BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2071,6 +2125,12 @@
 			target = 0A44EA8A823DD6EF4D355BB684394DE3 /* MTGLDebug */;
 			targetProxy = 492A51DEF1BF06A984647A63088F3D72 /* PBXContainerItemProxy */;
 		};
+		B8ED93986592F999D6A51136F7BE0704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WXMineBusiness-WXMineBusiness";
+			target = 8485B9DEF270561AF93676C2B1BF7E2A /* WXMineBusiness-WXMineBusiness */;
+			targetProxy = AE6BE9A3CF799660FFC57DB00A05ADE9 /* PBXContainerItemProxy */;
+		};
 		C0EDA5694CBFB157B5E621007F63AD21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
@@ -2115,6 +2175,29 @@
 			};
 			name = Release;
 		};
+		01D0F8F0A8BB94B2F1938203242A17BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WXMineBusiness/WXMineBusiness-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WXMineBusiness;
+				PRODUCT_NAME = WXMineBusiness;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		0D417501AEE5A03C7490C79618315CEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78BB3B6CEE91DE2C8D10A7CEE05F2915 /* MTGLDebug.xcconfig */;
@@ -2141,7 +2224,7 @@
 		};
 		11750DF1A793521AEBA8C7C869816B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 303817DF797261D875E5FDC95CA5F1BC /* WXRocket.xcconfig */;
+			baseConfigurationReference = 79F4AA1EBB206ED2098291E1FAC3EF7D /* WXRocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2164,7 +2247,7 @@
 		};
 		15D409AE2C8AF286FED8B4A8024EA1EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3EC35B013686821641B872816AD2FF2 /* WXLoginBusiness.xcconfig */;
+			baseConfigurationReference = 7D3F9F85EBF4EC35BBEADDE044697F95 /* WXLoginBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2212,7 +2295,7 @@
 		};
 		26759FEB07C6A9B9D4CC7ECCCF2CA4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3EC35B013686821641B872816AD2FF2 /* WXLoginBusiness.xcconfig */;
+			baseConfigurationReference = 7D3F9F85EBF4EC35BBEADDE044697F95 /* WXLoginBusiness.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2303,30 +2386,6 @@
 			};
 			name = Release;
 		};
-		305DD66884D3E334F7DE007C25684FEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6162F28803D3C8E3B029B43B5EACC5 /* WXMineBusiness.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WXMineBusiness/WXMineBusiness-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WXMineBusiness;
-				PRODUCT_NAME = WXMineBusiness;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4298A14868D72220290B4C88CCA0B479 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CFBCC9FE8E244BCC5232A5E1A99C9D0 /* MTAppenderFile.xcconfig */;
@@ -2351,7 +2410,7 @@
 		};
 		4B0F06856F42398216E6760E2DF5B035 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 303817DF797261D875E5FDC95CA5F1BC /* WXRocket.xcconfig */;
+			baseConfigurationReference = 79F4AA1EBB206ED2098291E1FAC3EF7D /* WXRocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2455,6 +2514,22 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		7EDD0C938757288BBF27015A77A14E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WXMineBusiness";
+				INFOPLIST_FILE = "Target Support Files/WXMineBusiness/ResourceBundle-WXMineBusiness-WXMineBusiness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WXMineBusiness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		89D8DCCF45D905556378C6BB302BA0FE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2563,29 +2638,6 @@
 			};
 			name = Release;
 		};
-		A5BCB4BCF7166B55BC919ABF9FFA038E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6162F28803D3C8E3B029B43B5EACC5 /* WXMineBusiness.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WXMineBusiness/WXMineBusiness-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WXMineBusiness;
-				PRODUCT_NAME = WXMineBusiness;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		AC76E9D4733823F3B2A7E131985C5AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6828EF09ACB1D30EC34E1BC61720CA28 /* KIF.xcconfig */;
@@ -2608,6 +2660,30 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		B06891F60121E2E5CC37525993A2D394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WXMineBusiness/WXMineBusiness-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WXMineBusiness;
+				PRODUCT_NAME = WXMineBusiness;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		CCD38A39563F045E0E8B7ECD577D49D1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2700,6 +2776,22 @@
 			};
 			name = Debug;
 		};
+		F6FC0DEFEC4CD7ADFB7A0DA137D8DBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BD35AC8A856B2F87D9E4A75C74972 /* WXMineBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WXMineBusiness";
+				INFOPLIST_FILE = "Target Support Files/WXMineBusiness/ResourceBundle-WXMineBusiness-WXMineBusiness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WXMineBusiness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		FE4EF35D9AC82BF8058898A2EEC2DCFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78BB3B6CEE91DE2C8D10A7CEE05F2915 /* MTGLDebug.xcconfig */;
@@ -2753,11 +2845,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1651C68E4769CC252F573CE4C3073F24 /* Build configuration list for PBXNativeTarget "WXMineBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D0F8F0A8BB94B2F1938203242A17BC /* Debug */,
+				B06891F60121E2E5CC37525993A2D394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2302563F2FD03F67613BAC85D9CA5450 /* Build configuration list for PBXNativeTarget "KIF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC76E9D4733823F3B2A7E131985C5AE4 /* Debug */,
 				2F45AC3C46EA233AA19D8EE5C4B4CF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8F74050CF56AE4034B192607705FC4 /* Build configuration list for PBXNativeTarget "WXMineBusiness-WXMineBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDD0C938757288BBF27015A77A14E13 /* Debug */,
+				F6FC0DEFEC4CD7ADFB7A0DA137D8DBBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2785,15 +2895,6 @@
 			buildConfigurations = (
 				26759FEB07C6A9B9D4CC7ECCCF2CA4A8 /* Debug */,
 				15D409AE2C8AF286FED8B4A8024EA1EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		931E9A88C8CE2C04A8650435DE8F7318 /* Build configuration list for PBXNativeTarget "WXMineBusiness" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5BCB4BCF7166B55BC919ABF9FFA038E /* Debug */,
-				305DD66884D3E334F7DE007C25684FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
